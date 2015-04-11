@@ -4,7 +4,9 @@ html(lang='en')
     title untitled ShuffleComp game
     script
       :coffeescript
-        require('imbroglio').play.start require './game'
+        {src} = require './game'
+        {play} = require 'imbroglio'
+        play.start src
     style
       :stylus
         body
