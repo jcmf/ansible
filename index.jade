@@ -2,7 +2,9 @@ doctype html
 html(lang='en')
   head
     title untitled ShuffleComp game
-    script(src='game.js')
+    script
+      :coffeescript
+        require('imbroglio').play.start require './game'
     style
       :stylus
         body

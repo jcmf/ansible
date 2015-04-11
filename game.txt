@@ -1,12 +1,13 @@
 #start
 
-This is the first passage in the game.  From here you could go
-[[left->left]] or [[right->right]].
+There.  There it is.  Phew.
 
-#left
+Can you hear me?  [[Yes->q1]] or [[No->deaf]].
 
-You went left!  There isn't much here.
+#q1
 
-#right
+Hold on, let me see if this can even tell if I leave out a passage.
 
-You went right!  Wow, this is boring.
+#deaf
+
+ok it works
