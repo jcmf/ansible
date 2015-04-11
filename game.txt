@@ -4,9 +4,9 @@
 
 There.  There it is.  Phew.
 
-Can you hear me?  [[Yes->cards]] or [[No->canthear]].
+Can you hear me?  [[Yes->cards]] or [[No->can't hear]].
 
-#canthear
+# can't hear
 
 Well that's not good.  Maybe if I adjust the... hold on....
 
@@ -16,10 +16,10 @@ Well that's not good.  Maybe if I adjust the... hold on....
 
 Okay, listen carefully, this is important.  I'm drawing a card
 now... okay.  It's face down, I haven't looked at it.  Can you tell
-me what card it is?  It's okay if you can't.  [[Yes->cardyes]], or
-[[no->cardno]].
+me what card it is?  It's okay if you can't.  [[Yes->card yes]], or
+[[no->card no]].
 
-#cardno
+#card no
 
 Thank you for being honest.  It's... the sixteen of trumps.  Once
 again, the sixteen of trumps.  Now we both have to try again, I
@@ -27,12 +27,12 @@ guess.  Thanks, good luck....
 
 @@@ CONNECTION LOST
 
-#cardyes
+#card yes
 
-Okay, uh... let's do, like, suits?  Is it, um, [[clubs->clubs]],
-or [[spades->spades]], or [[hearts->hearts]], or [[diamonds->diamonds]],
-or [[trumps->trumps]].  And before you ask, the joker is a trump.
-Or pretend it is.  You know what I mean.
+Okay, uh... let's do, like, suits?  Is it, um, [[clubs]], or
+[[spades]], or [[hearts]], or [[diamonds]], or [[trumps]].  And
+before you ask, the joker is a trump.  Or pretend it is.  You know
+what I mean.
 
 #clubs
 
@@ -101,7 +101,7 @@ again now.  Thank you.  Oh, you should try again too.  Okay, bye.
 
 Hold on, I'm just going to write this... trumps, okay.  Is it a...
 uh, sorry... [[one through ten->low]], [[eleven through twenty-one->high]],
-or the, the [[joker->joker]].
+or the, the [[joker]].
 
 #joker
 
@@ -124,4 +124,3 @@ that, sorry, never mind, sorry!  Long day.  Okay.  Go.
 
 Okay!  I am going to look, and, it's... wow, pretty good.  Pretty
 good.  You got it.  Sixteen.
-

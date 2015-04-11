@@ -11,7 +11,7 @@
 }).call(this);
 
 },{"./game":2,"imbroglio":8}],2:[function(require,module,exports){
-exports.src = "#start\n\n@@@ CONNECTION ESTABLISHED\n\nThere.  There it is.  Phew.\n\nCan you hear me?  [[Yes->cards]] or [[No->canthear]].\n\n#canthear\n\nWell that's not good.  Maybe if I adjust the... hold on....\n\n@@@ CONNECTION LOST\n\n#cards\n\nOkay, listen carefully, this is important.  I'm drawing a card\nnow... okay.  It's face down, I haven't looked at it.  Can you tell\nme what card it is?  It's okay if you can't.  [[Yes->cardyes]], or\n[[no->cardno]].\n\n#cardno\n\nThank you for being honest.  It's... the sixteen of trumps.  Once\nagain, the sixteen of trumps.  Now we both have to try again, I\nguess.  Thanks, good luck....\n\n@@@ CONNECTION LOST\n\n#cardyes\n\nOkay, uh... let's do, like, suits?  Is it, um, [[clubs->clubs]],\nor [[spades->spades]], or [[hearts->hearts]], or [[diamonds->diamonds]],\nor [[trumps->trumps]].  And before you ask, the joker is a trump.\nOr pretend it is.  You know what I mean.\n\n#clubs\n\nHold on, I'm writing this down.  Clubs.  Um.  Is it a face card?\nUh, [[yes->face]] or [[no->low]].\n\n#spades\n\nHold on, I'm going to write this down.  Spades?  Spades.  Okay.  Is\nit a face card?  [[Yes->face]], or [[no->low]].\n\n#hearts\n\nHold on, I'm writing it down.  Hearts.  Got it.  Uh... is it a face\ncard?  [[Yes->face]] or [[no->low]].\n\n#diamonds\n\nHold on, I'm... diamonds.  It was diamonds.  I wrote it down.  Okay.\nIs it a face card?  [[Yes->face]], or [[no->low]].\n\n#face\n\n[[Jack->wrong1]], [[Knight->wrong2]], [[Queen->wrong3]], [[King->wrong4]]?\n\n#low\n\n[[One->wrong4]] [[two->wrong3]] [[three->wrong2]] [[four->wrong1]]\n[[five->wrong3]] [[six->wrong2]] [[seven->wrong4]] [[eight->wrong1]]\n[[niiiiine->wrong2]]... [[ten->wrong3]]?\n\n#wrong1\n\nOkay!  I am going to look, and, it's the sixteen of trumps.  Yep.\nOnce again, it's the sixteen of trumps.  Sorry about that.  I have\nto try again.  You can try again too maybe.  Thank you, buhbye.\n\n@@@ CONNECTION LOST\n\n#wrong2\n\nOkay!  I am going to look now, and, it's the sixteen of trumps.\nYep.  Once again, it's the sixteen of trumps.  Sorry about that.\nI have to try again.  You can try again too maybe.  Thank you,\nbye.\n\n@@@ CONNECTION LOST\n\n#wrong3\n\nOkay!  I am going to look, and... it's the sixteen.  Of trumps.  Yep.\nOnce again, it's the sixteen of trumps.  Sorry about that.  I have to\ntry again, and you should try again too.  Thank you!  G'bye!\n\n@@@ CONNECTION LOST\n\n#wrong4\n\nOkay.  I am going to look... and it's the sixteen of trumps.  Yep.\nOnce again, it's the sixteen of trumps.  I'm sorry.  I have to try\nagain now.  Thank you.  Oh, you should try again too.  Okay, bye.\n\n@@@ CONNECTION LOST\n\n#trumps\n\nHold on, I'm just going to write this... trumps, okay.  Is it a...\nuh, sorry... [[one through ten->low]], [[eleven through twenty-one->high]],\nor the, the [[joker->joker]].\n\n#joker\n\nIt is really the joker?  Oh never mind I just looked and it's not...\nit's the sixteen of trumps.  Uh.  Once again, the sixteen of trumps.\nPlease make a note of it.  I have to try this again now.  Thank\nyou!  Oh, you should try again too, if you can.  Uh, bye.\n\n@@@ CONNECTION LOST\n\n#high\n\n[[Eleven->wrong2]], [[twelve->wrong3]], [[thirteen->wrong4]]\n[[fourteen->wrong1]] [[fifteen->wrong3]] [[sixteen->right]]\n[[seventeen->wrong2]] [[eighteen->wrong3]] [[nineteen->wrong1]]\n[[twenty->wrong4]], [[twenty-one->wrong1]].  Or the... no, we covered\nthat, sorry, never mind, sorry!  Long day.  Okay.  Go.\n\n#right\n\nOkay!  I am going to look, and, it's... wow, pretty good.  Pretty\ngood.  You got it.  Sixteen.\n\n";
+exports.src = "#start\n\n@@@ CONNECTION ESTABLISHED\n\nThere.  There it is.  Phew.\n\nCan you hear me?  [[Yes->cards]] or [[No->can't hear]].\n\n# can't hear\n\nWell that's not good.  Maybe if I adjust the... hold on....\n\n@@@ CONNECTION LOST\n\n#cards\n\nOkay, listen carefully, this is important.  I'm drawing a card\nnow... okay.  It's face down, I haven't looked at it.  Can you tell\nme what card it is?  It's okay if you can't.  [[Yes->card yes]], or\n[[no->card no]].\n\n#card no\n\nThank you for being honest.  It's... the sixteen of trumps.  Once\nagain, the sixteen of trumps.  Now we both have to try again, I\nguess.  Thanks, good luck....\n\n@@@ CONNECTION LOST\n\n#card yes\n\nOkay, uh... let's do, like, suits?  Is it, um, [[clubs]], or\n[[spades]], or [[hearts]], or [[diamonds]], or [[trumps]].  And\nbefore you ask, the joker is a trump.  Or pretend it is.  You know\nwhat I mean.\n\n#clubs\n\nHold on, I'm writing this down.  Clubs.  Um.  Is it a face card?\nUh, [[yes->face]] or [[no->low]].\n\n#spades\n\nHold on, I'm going to write this down.  Spades?  Spades.  Okay.  Is\nit a face card?  [[Yes->face]], or [[no->low]].\n\n#hearts\n\nHold on, I'm writing it down.  Hearts.  Got it.  Uh... is it a face\ncard?  [[Yes->face]] or [[no->low]].\n\n#diamonds\n\nHold on, I'm... diamonds.  It was diamonds.  I wrote it down.  Okay.\nIs it a face card?  [[Yes->face]], or [[no->low]].\n\n#face\n\n[[Jack->wrong1]], [[Knight->wrong2]], [[Queen->wrong3]], [[King->wrong4]]?\n\n#low\n\n[[One->wrong4]] [[two->wrong3]] [[three->wrong2]] [[four->wrong1]]\n[[five->wrong3]] [[six->wrong2]] [[seven->wrong4]] [[eight->wrong1]]\n[[niiiiine->wrong2]]... [[ten->wrong3]]?\n\n#wrong1\n\nOkay!  I am going to look, and, it's the sixteen of trumps.  Yep.\nOnce again, it's the sixteen of trumps.  Sorry about that.  I have\nto try again.  You can try again too maybe.  Thank you, buhbye.\n\n@@@ CONNECTION LOST\n\n#wrong2\n\nOkay!  I am going to look now, and, it's the sixteen of trumps.\nYep.  Once again, it's the sixteen of trumps.  Sorry about that.\nI have to try again.  You can try again too maybe.  Thank you,\nbye.\n\n@@@ CONNECTION LOST\n\n#wrong3\n\nOkay!  I am going to look, and... it's the sixteen.  Of trumps.  Yep.\nOnce again, it's the sixteen of trumps.  Sorry about that.  I have to\ntry again, and you should try again too.  Thank you!  G'bye!\n\n@@@ CONNECTION LOST\n\n#wrong4\n\nOkay.  I am going to look... and it's the sixteen of trumps.  Yep.\nOnce again, it's the sixteen of trumps.  I'm sorry.  I have to try\nagain now.  Thank you.  Oh, you should try again too.  Okay, bye.\n\n@@@ CONNECTION LOST\n\n#trumps\n\nHold on, I'm just going to write this... trumps, okay.  Is it a...\nuh, sorry... [[one through ten->low]], [[eleven through twenty-one->high]],\nor the, the [[joker]].\n\n#joker\n\nIt is really the joker?  Oh never mind I just looked and it's not...\nit's the sixteen of trumps.  Uh.  Once again, the sixteen of trumps.\nPlease make a note of it.  I have to try this again now.  Thank\nyou!  Oh, you should try again too, if you can.  Uh, bye.\n\n@@@ CONNECTION LOST\n\n#high\n\n[[Eleven->wrong2]], [[twelve->wrong3]], [[thirteen->wrong4]]\n[[fourteen->wrong1]] [[fifteen->wrong3]] [[sixteen->right]]\n[[seventeen->wrong2]] [[eighteen->wrong3]] [[nineteen->wrong1]]\n[[twenty->wrong4]], [[twenty-one->wrong1]].  Or the... no, we covered\nthat, sorry, never mind, sorry!  Long day.  Okay.  Go.\n\n#right\n\nOkay!  I am going to look, and, it's... wow, pretty good.  Pretty\ngood.  You got it.  Sixteen.\n";
 
 },{}],3:[function(require,module,exports){
 // http://wiki.commonjs.org/wiki/Unit_Testing/1.0
@@ -1140,7 +1140,7 @@ function hasOwnProperty(obj, prop) {
         linkCount = 0;
         while (m = re.exec(v.src)) {
           (function() {
-            var link, lm, offset;
+            var link, lm, offset, target, text;
             if (m.index !== index) {
               p.push({
                 text: v.src.substring(index, m.index),
@@ -1153,20 +1153,24 @@ function hasOwnProperty(obj, prop) {
               pp.push(p = []);
               return;
             }
-            link = m[1];
+            text = target = link = m[1];
             offset = v.startIndex + m.index;
-            if (!(lm = /(.*)->([^\s<>]+)/.exec(link))) {
-              error("malformed link [[" + link + "]], passage " + k + ", offset " + offset);
-            }
             if (linkCount >= choiceChars.length) {
-              error("too many links, passage " + k + ", offset " + offset);
+              error("too many links at [[" + link + "]], passage " + k + ", offset " + offset);
             }
-            if (!(lm[2] in passages)) {
-              error("bad link target " + lm[2] + ", passage " + k + ", offset " + offset);
+            if (lm = /^(.*)->\s*([^<>]*[^\s<>])\s*$/.exec(link)) {
+              text = lm[1];
+              target = lm[2];
+            } else if (lm = /^\s*([^<>]*[^\s<>])\s*<-(.*)$/.exec(link)) {
+              target = lm[1];
+              text = lm[2];
+            }
+            if (!(target in passages)) {
+              error("bad link target '" + target + "' at [[" + link + "]], passage " + k + ", offset " + offset);
             }
             p.push({
-              text: lm[1],
-              target: lm[2],
+              text: text,
+              target: target,
               choiceChar: choiceChars[linkCount++],
               startIndex: v.startIndex + m.index,
               endIndex: v.startIndex + index
