@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+  head
+    title untitled ShuffleComp game
+    script(src='game.js')
+    style
+      :stylus
+        body
+          padding 0.5em
+  body
+    #loading
+      :markdown
+        loading [home](#)
+    #404-pane.pane
+      :markdown
+        404 [home](#)
+    #home.pane
+      :markdown
+        home [start](#!) [credits](#/credits)
+    #credits-pane.pane
+      :markdown
+        credits [home](#)
+    #game
+      :markdown
+        game [home](#)
+      #output
