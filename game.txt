@@ -355,6 +355,14 @@ Tall people arguing!  Two at least.  I can't quite hear what they're
 saying.  Wow, they seem... agitated.  Hmm.  Maybe I should get
 [[closer]]?  Or [[no->not closer]]?
 
+# not closer
+
+All right.
+
+Hold on, I want to see if I can hear if I take this off.
+
+@@@ CONNECTION LOST @@@
+
 # closer
 
 @@@ CONNECTION SUSPENDED/RESUMED; ELAPSED TIME 133s @@@
@@ -388,7 +396,7 @@ Maybe I could still... I could [[pretend]] I was just... or just
 
 "You cannot deceive us!"
 
-"We're not gonna take it anymore!"
+"Yeah, we're not gonna take it anymore!"
 
 "Oh, be quiet."
 
@@ -402,11 +410,11 @@ Maybe I could still... I could [[pretend]] I was just... or just
 
 "You wouldn't."
 
-"Two birds."
+"Two birds...."
 
 "Drop it!"
 
-"All heads off..."
+"All heads off."
 
 "Don't do this!"
 
@@ -419,8 +427,8 @@ Maybe I could still... I could [[pretend]] I was just... or just
 "Who's there?"
 
 "Oh!  It's just, it's just, uh," crap, "oh!  Me.  Heh heh.  I was
-just, uh, taking a walk, and..." ...crap!  Crap!  Crap.  "And I saw
-your, uh, campfire!"
+just, uh, taking a walk, and," crap.  Crap!  "And I saw your, uh,
+campfire!"
 
 Actually, that's not --
 
@@ -432,23 +440,21 @@ Actually, that's not --
 
 Crap!
 
-Okay.
-
 "Valeria.  I'm Valeria!  Pleased to meet you?"
 
-Hey yeah, this could --
+Hey, this could --
 
 "Greetings, Valeria!  Please forgive my sister and myself; we can
 be very, ah, stupid, at times."
 
 "Oh!  Are you giants?"
 
-Ohmygod, did I just, oh my god, what the crap, they're gonna --
+Ohmygod, did I just, oh my god, what the crap am I, they're gonna --
 
 "How very perspicacious of you.  Truly -- ah, in fact, my sluggish giant
 brain is beginning to develop a thought."
 
-"Um."
+"Uh?"
 
 "Yes!  An idea."
 
