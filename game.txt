@@ -1,6 +1,6 @@
 #start
 
-@@@ CONNECTION ESTABLISHED
+@@@ CONNECTION ESTABLISHED @@@
 
 There.  There it is.  Phew.
 
@@ -10,7 +10,7 @@ Can you hear me?  [[Yes->cards]] or [[No->can't hear]].
 
 Well that's not good.  Maybe if I adjust the... hold on....
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #cards
 
@@ -25,7 +25,7 @@ Thank you for being honest.  It's... the sixteen of trumps.  Once
 again, the sixteen of trumps.  Now we both have to try again, I
 guess.  Thanks, good luck....
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #card yes
 
@@ -70,7 +70,7 @@ Okay!  I am going to look, and, it's the sixteen of trumps.  Yep.
 Once again, it's the sixteen of trumps.  Sorry about that.  I have
 to try again.  You can try again too maybe.  Thank you, buhbye.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #wrong2
 
@@ -79,7 +79,7 @@ Yep.  Once again, it's the sixteen of trumps.  Sorry about that.
 I have to try again.  You can try again too maybe.  Thank you,
 bye.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #wrong3
 
@@ -87,7 +87,7 @@ Okay!  I am going to look, and... it's the sixteen.  Of trumps.  Yep.
 Once again, it's the sixteen of trumps.  Sorry about that.  I have to
 try again, and you should try again too.  Thank you!  G'bye!
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #wrong4
 
@@ -95,7 +95,7 @@ Okay.  I am going to look... and it's the sixteen of trumps.  Yep.
 Once again, it's the sixteen of trumps.  I'm sorry.  I have to try
 again now.  Thank you.  Oh, you should try again too.  Okay, bye.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #trumps
 
@@ -110,7 +110,7 @@ it's the sixteen of trumps.  Uh.  Once again, the sixteen of trumps.
 Please make a note of it.  I have to try this again now.  Thank
 you!  Oh, you should try again too, if you can.  Uh, bye.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #high
 
@@ -130,7 +130,7 @@ Are you ready?  Say [[yes]].
 
 Okay.  Let me just get ready.  I'll be right back.
 
-@@@ CONNECTION SUSPENDED/RESUMED; ELAPSED TIME 925s
+@@@ CONNECTION SUSPENDED/RESUMED; ELAPSED TIME 925s @@@
 
 Sorry that took so long!  I got hungry.  Are you still there?  Say
 [[yes->there]].
@@ -149,7 +149,7 @@ should I just [[get started]] with that?  Or is it [[no good]]?
 
 Perfect.  I'll check back in a bit!
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 # no good
 
@@ -160,7 +160,7 @@ I at least go as far as the [[crossroads]]?
 
 Sounds good!  I'll see you in a bit.
 
-@@@ CONNECTION SUSPENDED/RESUMED; ELAPSED TIME 5424s
+@@@ CONNECTION SUSPENDED/RESUMED; ELAPSED TIME 5424s @@@
 
 Hey, are you... wow, you're totally there, I can tell.  Reception
 must be good out here or something.  Oh my god, this is trippy.
@@ -184,7 +184,7 @@ me?  [[Yes->messing]] or [[no->not messing]].
 All right!  Home it is.  I'm gonna turn this thing off again, it's
 really, uh, strong.  Talk to you soon.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 # messing
 
@@ -196,26 +196,26 @@ vibrating.  I gotta turn this off.  Just... [[north->n2]],
 
 I can't believe I... we'll talk about this later, okay?
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 # w2
 
 Right on.  Wait, is it right?  It's totally right.  Right!  I'll
 check back later.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 # e2
 
 Right... no, left.  Yes!  Left.  Good.  I'll check back in a bit.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 # s2
 
 South.  Which would be... just, yeah, okay.  I'll talk to you later.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #stop
 
@@ -224,27 +224,27 @@ in my head is driving me crazy, my teeth are like... how about if
 I check back in half an hour?  Or if anything interesting happens.
 Great, catch you later.  Oh my god.  They're, like, singing.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #south
 
 Sounds good!  I'll check back in a bit.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #east
 
 So... hold on... that way.  Got it.  I'll talk to you in a bit.
 Wow, this thing is, I don't know, powerful.  Feels weird.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #west
 
 So... uh... wow, this thing is really getting to me, can't think
 straight.  No, I got it, this way.  Yes.  Good.  Talk to you in a bit.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #ring
 
@@ -266,7 +266,7 @@ I could... uh... [[not]] head down the road?
 
 Okay, great, let's do this.  I'll check back in a bit.
 
-@@@ CONNECTION SUSPENDED/RESUMED; ELAPSED TIME 5390s
+@@@ CONNECTION SUSPENDED/RESUMED; ELAPSED TIME 5390s @@@
 
 Hey, I'm... wow, it's like you're really... wow.  This is intense.
 Okay.  I'm at the crossroads!  I could turn [[left]], I could go
@@ -276,32 +276,31 @@ Okay.  I'm at the crossroads!  I could turn [[left]], I could go
 
 Left it is!  Wow.  Okay, talk to you soon.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #right
 
 Right you are!  Heh heh... whoa, okay, I'll talk to you soon.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #straight
 
 Got it.  Yeah, I'm just going to, I'll talk to you soon.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #here
 
-Ugh.  Hold on, let me see if there's anything left in the fridge.
-I'll be right back.
+Ugh.  Hold on, I need to eat something.  I'll be right back.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #castle
 
 Castle it is!  I'll check back in when I get close.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #not
 
@@ -312,8 +311,202 @@ So you just want me to stay here?  [[Yes->stay]] or [[no->go]]?
 Fine.  Let me... I'm still kind of hungry actually.  I'll be back
 in a minute.
 
-@@@ CONNECTION LOST
+@@@ CONNECTION LOST @@@
 
 #go
 
-@@@ WINNING ENDING haha j/k
+Okay, I guess I'll just go wander aimlessly through the forest,
+then!
+
+@@@ CONNECTION SUSPENDED/RESUMED; ELAPSED TIME 722s @@@
+
+Hey!  I think I see something.  There's a light.  Campfire, maybe.
+I'm going to go [[check it out]], unless you think that's a [[bad
+idea]].
+
+# bad idea
+
+Gosh, you're no fun.  All right, I'll let you know if I come across
+anything else.
+
+@@@ CONNECTION SUSPENDED/RESUMED; ELAPSED TIME 4323s @@@
+
+A presence!  Not alone.  Not alone.  Hope!
+
+Help me!
+
+Disaster!  Stupid, stupid disaster.
+
+Can we communicate?
+
+No change.
+
+This protuberance could be a winding mechanism.  Perhaps
+
+@@@ CONNECTION LOST @@@
+
+# check it out
+
+Okay, let me see if I can get closer.
+
+@@@ CONNECTION SUSPENDED/RESUMED; ELAPSED TIME 240s @@@
+
+Tall people arguing!  Two at least.  I can't quite hear what they're
+saying.  Wow, they seem... agitated.  Hmm.  Maybe I should get
+[[closer]]?  Or [[no->not closer]]?
+
+# closer
+
+@@@ CONNECTION SUSPENDED/RESUMED; ELAPSED TIME 133s @@@
+
+"...not what we agreed."
+
+Okay, I
+
+"Listen!  Just listen!"
+
+"Like you listened to me?  I don't have to --"
+
+"Listen!"
+
+wow,
+
+"I don't have to!  It's mine!  It's mine by right!  He told us --"
+
+"No, listen!  There!  Did you hear it?"
+
+Crap.  Crap crap crap.
+
+Maybe I could still... I could [[pretend]] I was just... or just
+[[lay low]]....
+
+# lay low
+
+"Who's there?"
+
+"We know you're out there!"
+
+"You cannot deceive us!"
+
+"We're not gonna take it anymore!"
+
+"Oh, be quiet."
+
+"You be quiet!"
+
+"This is serious!  Pipe down for once!"
+
+"Make me!"
+
+"Don't tempt me."
+
+"You wouldn't."
+
+"Two birds."
+
+"Drop it!"
+
+"All heads off..."
+
+"Don't do this!"
+
+"Mine alone remain!"
+
+@@@ CONNECTION LOST @@@
+
+# pretend
+
+"Who's there?"
+
+"Oh!  It's just, it's just, uh," crap, "oh!  Me.  Heh heh.  I was
+just, uh, taking a walk, and..." ...crap!  Crap!  Crap.  "And I saw
+your, uh, campfire!"
+
+Actually, that's not --
+
+"Who are you?"
+
+"Oh!  I'm," do I, [[what]] --
+
+# what
+
+Crap!
+
+Okay.
+
+"Valeria.  I'm Valeria!  Pleased to meet you?"
+
+Hey yeah, this could --
+
+"Greetings, Valeria!  Please forgive my sister and myself; we can
+be very, ah, stupid, at times."
+
+"Oh!  Are you giants?"
+
+Ohmygod, did I just, oh my god, what the crap, they're gonna --
+
+"How very perspicacious of you.  Truly -- ah, in fact, my sluggish giant
+brain is beginning to develop a thought."
+
+"Um."
+
+"Yes!  An idea."
+
+What the hell?
+
+"Why don't you join us by the fire, that we may converse more freely?"
+
+Um.  Um!  [[Do it?]]  [[No?]]
+
+# No?
+
+Seriously, right?
+
+"Yeah, uh... thank you for the kind offer but I really can't stay,
+I have to, um.  I should be going."
+
+"But you must help us!  We are so stupid!"
+
+"Stop calling me stupid!"
+
+"Gnot gnow, ssisterr!"
+
+Yow.
+
+"Okay well it was very nice meeting you, take care!"
+
+Oh my goodness.
+
+Oh my goodness.
+
+Okay.
+
+Okay.
+
+Okay.
+
+Wow.
+
+[[Wow.]]
+
+# Wow.
+
+Sorry, didn't mean to do that.
+
+That was exciting, right?  What the hell.  Right?
+
+Hold
+
+@@@ CONNECTION LOST @@@
+
+# Do it?
+
+"Uhhhhhh... suuuuuure... just, uh, yeah, here we go, right, whoops,
+ha, okay, yes, okay, here we are, here we go."
+
+"Please, make yourself comfortable!  There is no need to stand!  I
+can offer you this, ah, this fine flat rock!"
+
+"Oh!  I wouldn't want to, uh...."
+
+
