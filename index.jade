@@ -9,9 +9,24 @@ html(lang='en')
         play.start src
     style
       :stylus
+        @font-face
+          font-family "Exo 2"
+          src url(fonts/Exo2-Regular.woff)
+        @font-face
+          font-family "Exo 2"
+          font-weight bold
+          src url(fonts/Exo2-Bold.woff)
         body
+          font-family "Exo 2", sans-serif
+          margin 0 auto
           padding 0.5em
-        .chosen
+          max-width 40em
+          line-height 1.5
+          color black
+          background-color #ddd
+        .chosen, .current
+          background-color white
+        .code
           font-weight bold
   body
     #loading
