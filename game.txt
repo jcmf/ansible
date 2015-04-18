@@ -4,7 +4,7 @@
 
 There.  There it is.  Phew.
 
-Can you hear me?  [[Yes->cards]] or [[No->can't hear]].
+Can you hear me?  [[Yes->cards]] or [[no->can't hear]].
 
 # can't hear
 
@@ -590,6 +590,142 @@ had envisioned when we brought you here!"
 
 "Ah, see how hopeless it would be to expect us to resolve this difficulty
 without your assistance!  Truly, you are our only hope!"
+
+Well.
+
+"Can I try them?"
+
+"No!"
+
+"Ah, let us not be too hasty, sister!  After all, how is Valeria
+to gauge the value of these items, if not by verifying their
+properties for herself?"
+
+Gosh.  [[Boots->boots]], [[mantle]], or [[sword]]?
+
+# boots
+
+"Then I would like to try the boots, please."
+
+"Certainly!  Only you must promise to bring them back, of course.
+In fact it might be best if you were to leave behind some sort of
+guarantee, some... do you have anything of value?"
+
+"Well... uh... I mean... I do have this ring...."
+
+Crap!  Maybe --
+
+"Ah!  May I examine it?"
+
+Agh, what now?  [[Yes->yes examine]], or [[no->no examine]]?
+
+# yes examine
+
+"Um... sure?  I, uh... it's a magic ring."
+
+"Really!  How very appropriate.  What properties does it have?"
+
+"It, uh... sometimes you can ask it a question... I mean it takes
+some practice, you can't just... I mean you can, you can try it,
+but... I just, I spent a lot of time earlier adjusting it, so don't
+--"
+
+#{@pause 20}
+
+A presence!  Remarkable.  Have I underestimated her?  I think not.  She
+believes it, certainly.  And if she is correct, so much the better.
+
+"My, such a powerful aura!  Truly impressive!"
+
+The boots now?  Yes.  The boots.  She'll be back.
+
+"I, uh... I just... do I... how do I...?"
+
+"Don't!"
+
+"Quiet, you.  Just make a wish.  But don't forget to wish yourself
+back here!"
+
+"I wish, uh... I wish I was home!"
+
+Odd!  Are they fitted improperly?  Did she....
+
+Oh no.
+
+"Told you."
+
+Horrifying.
+
+Look away.  No, don't.
+
+Incredible.
+
+Gone!
+
+"This is what you saw?"
+
+"Pretty much."
+
+"But don't you see?  This is, ah, undoubtedly merely a side effect of the
+artifact's intended principle of operation!  Subjectively instantaneous,
+but not physically, ah --"
+
+"I'm back!  Wow, these are pretty good!"
+
+"Ah!  Yes.  Yes, you certainly are.  Back."
+
+"We should totally trade!  I mean, I would, uh...."
+
+"We'll have plenty of time to discuss that, I'm certain, but for
+now if I might assist you with, ah, there, if you would --"
+
+#{@end()}
+
+# no examine
+
+"I... uh... I'd rather that you didn't, actually."
+
+"Ah, fair enough, fair enough!  Then, ah, perhaps you would feel
+more at ease entrusting your valued heirloom to Uda, here?  Merely
+for safekeeping, you understand.  While you essay the boots."
+
+"Me?"
+
+Huh.  [[Yes->yes uda]], [[no->no uda]]?
+
+# yes uda
+
+"Okay, just, uh... be careful of this part, it's very, um, delicate,
+so try not to brush it or, like, twist it, or anything.  Also, if
+you, um...."
+
+"I know."
+
+"You do?  You do.  Okay."
+
+Okay.  Be cool.
+
+#{@pause 4}
+
+Hello.  We met!  Not you, I s'pose.  Another of you.  Please help,
+please, you must know how bad this is, you must.  I'm too...
+
+"There we go!  Now, ah --"
+
+{{Fight}}.  {{Flee}}.  {{Wait}}.  Go.
+
+# no uda
+
+"Yeah, uh, no, I don't think... maybe you could just show me?"
+
+"Demonstrate the operation of these artifacts, you mean?"
+
+
+# mantle
+
+XXX
+
+# sword
 
 XXX
 
