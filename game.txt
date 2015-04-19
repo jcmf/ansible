@@ -773,9 +773,8 @@ Both of them.
 
 Where is it now?  Oh god.
 
-This is bad.
-
-XXX
+What do I do?  Get out of here fast, maybe?  {{Yes->fast yes}} or
+{{no->fast no}}?
 
 # suggest
 
@@ -800,7 +799,8 @@ that the totality of the items in question might go to --"
 
 "It's the only way.  She won't listen!"
 
-XXX
+Hey, what do you think about this?  {{Yes->destroy yes}} or
+{{no->destroy no}}?
 
 # else
 
