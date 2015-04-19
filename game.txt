@@ -576,8 +576,7 @@ Sounds pretty fancy!  "And the sword?"
 
 "I, uh, got it."  Gosh.  Okay.  Well.  I could... ask more
 [[questions]], I could [[suggest]] something, I could... um... try
-to think of something [[else]]... my goodness, Uda's face, can't
-look....
+to think of something [[else]]....
 
 # questions
 
@@ -707,12 +706,12 @@ Okay.  Be cool.
 
 #{@pause 4}
 
-Hello.  We met!  Not you, I s'pose.  Another of you.  Please help,
-please, you must know how bad this is, you must.  I'm too...
+Hello.  We met!  Not you, I s'pose.  Another of you.  Please help!
+I'm too...
 
 "There we go!  Now, ah --"
 
-{{Fight}}.  {{Flee}}.  {{Wait}}.  Go.
+Oh no.  {{Fight}}.  {{Speak}}.  {{Wait}}.  Go.
 
 # no uda
 
@@ -720,12 +719,61 @@ please, you must know how bad this is, you must.  I'm too...
 
 "Demonstrate the operation of these artifacts, you mean?"
 
+Crap.  {{Yes->yes demo}}?  {{No->no demo}}?
 
 # mantle
 
-XXX
+"Then I would like to try the... mantle?"
+
+"Certainly!  Only you must promise to return it!  Naturally you
+would never dream of doing otherwise, however it might be best if
+you were to leave behind some sort of guarantee, some... do you
+have anything of value?"
+
+"Well, um... there's this ring...."
+
+Crap!  Maybe I --
+
+"Ah!  May I examine it?"
+
+Hey, what do I say?  [[Yes->yes x (mantle)]], or [[no->no x (mantle)]]?
 
 # sword
+
+"Then I would like to, um, check out the sword?"
+
+"Certainly!  Only you must be careful with it.  I would advise against
+touching the blade at all, for example."
+
+"Okay."
+
+"I don't like this!"
+
+"You really must control these unseemly outbursts, sister!  Valeria
+intends only to assist us!  We have nothing to fear from her.  Go on,
+Valeria."
+
+"Oh, wow!  It's so... light?  Not light, but...."
+
+"Perhaps you would like to test it on one of those boulders?  Carefully,
+of course."
+
+"Seriously?  I can just... oh my god.  This is amazing.  Hey, what's
+with this inscription?"
+
+"Ah --"
+
+"Stop!"
+
+"All heads off, mine alone remain.  Crap, it...."
+
+Holy crap.
+
+Both of them.
+
+Where is it now?  Oh god.
+
+This is bad.
 
 XXX
 
@@ -748,7 +796,7 @@ that the totality of the items in question might go to --"
 
 "-- to a single, ah, party.  However we could perhaps, ah..."
 
-"What do you mean, destroy them?"
+"Wait.  Destroy them?"
 
 "It's the only way.  She won't listen!"
 
@@ -756,4 +804,6 @@ XXX
 
 # else
 
-XXX
+Hmm.  Something else.  Not a question or a suggestion.  So not so
+much talking as maybe doing something.  Get out of here, maybe?
+[[Yes->yes get out]] or [[no->no get out]]?
