@@ -711,7 +711,7 @@ I'm too...
 
 "There we go!  Now, ah --"
 
-Oh no.  {{Fight}}.  {{Speak}}.  {{Wait}}.  Go.
+Oh no.  [[Fight]].  [[Speak]].  [[Wait]].  Go.
 
 # no uda
 
@@ -719,7 +719,7 @@ Oh no.  {{Fight}}.  {{Speak}}.  {{Wait}}.  Go.
 
 "Demonstrate the operation of these artifacts, you mean?"
 
-Crap.  {{Yes->yes demo}}?  {{No->no demo}}?
+Crap.  [[Yes->yes demo]]?  [[No->no demo]]?
 
 # mantle
 
@@ -773,8 +773,8 @@ Both of them.
 
 Where is it now?  Oh god.
 
-What do I do?  Get out of here fast, maybe?  {{Yes->fast yes}} or
-{{no->fast no}}?
+What do I do?  Get out of here fast, maybe?  [[Yes->fast yes]] or
+[[no->fast no]]?
 
 # suggest
 
@@ -799,8 +799,8 @@ that the totality of the items in question might go to --"
 
 "It's the only way.  She won't listen!"
 
-Hey, what do you think about this?  {{Yes->destroy yes}} or
-{{no->destroy no}}?
+Hey, what do you think about this?  [[Yes->destroy yes]] or
+[[no->destroy no]]?
 
 # else
 
