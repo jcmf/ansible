@@ -17746,11 +17746,25 @@ body {
   background-color: #ddd;
 }
 .chosen,
-.current {
+.current,
+a[href]:hover {
   background-color: #fff;
+  border-radius: 0.2em;
+  box-shadow: 0 0 0.3em 0.3em #fff;
+}
+a[href] {
+  text-decoration: none;
+  color: #00c;
+}
+a[href]:hover {
+  color: #00f;
 }
 .code {
   font-weight: bold;
+}
+.error {
+  color: #000;
+  background-color: #f00;
 }
 </style></head><body><div id="loading"><p>loading <a href="#">home</a></p>
 </div><div id="404-pane" class="pane"><p>404 <a href="#">home</a></p>

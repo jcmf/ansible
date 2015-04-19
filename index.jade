@@ -24,10 +24,20 @@ html(lang='en')
           line-height 1.5
           color black
           background-color #ddd
-        .chosen, .current
+        .chosen, .current, a[href]:hover
           background-color white
+          border-radius 0.2em
+          box-shadow 0 0 0.3em 0.3em white
+        a[href]
+          text-decoration none
+          color #00c
+          &:hover
+            color #00f
         .code
           font-weight bold
+        .error
+          color black
+          background-color red
   body
     #loading
       :markdown
