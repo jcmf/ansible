@@ -711,7 +711,7 @@ I'm too...
 
 "There we go!  Now, ah --"
 
-Oh no.  [[Fight]].  [[Speak]].  [[Wait]].  Go.
+Oh no.  [[Fight]].  [[Speak]].  [[Wait]].
 
 # no uda
 
@@ -759,15 +759,15 @@ Valeria."
 of course."
 
 "Seriously?  I can just... oh my god.  This is amazing.  Hey, what's
-with this inscription?"
+the inscription mean?"
 
-"Ah --"
+"I, ah, yes, inscription, of course --"
 
 "Stop!"
 
-"All heads off, mine alone remain.  Crap, it...."
+"All heads off, mine alone remain.  Crap, it... it just...."
 
-Holy crap.
+Oh my god.
 
 Both of them.
 
@@ -799,11 +799,215 @@ that the totality of the items in question might go to --"
 
 "It's the only way.  She won't listen!"
 
-Hey, what do you think about this?  [[Yes->destroy yes]] or
-[[no->destroy no]]?
+"I'm afraid my sister is very, ah, superstitious."
+
+Hey, question: Who do you think is right?  [[Nara]]?  [[Uda]]?  [[Neither]]?
 
 # else
 
 Hmm.  Something else.  Not a question or a suggestion.  So not so
 much talking as maybe doing something.  Get out of here, maybe?
 [[Yes->yes get out]] or [[no->no get out]]?
+
+# Uda
+
+Oh good, I was worried you were maybe going to side with Nara and
+I was going to... well anyway.  
+
+So.  Act now?  [[Yes->yes act]] or no [[no act]]?
+
+# no act
+
+Hmm.  Talk, then?  [[Yes->yes talk]], or [[no->no talk]].
+
+# no talk
+
+"Listen, I wish I could help you, but I don't think this is going anywhere."
+
+"Ah.  Well.  We regret that you feel that way, but if that is your
+decision then of course we shall abide by it."
+
+"Thanks.  So long.  Bye, Uda."
+
+Gosh.
+
+Maybe I can come back?
+
+Let me get a little distance first.
+
+Wow, this thing is giving me a headache.  I'll check back.
+
+#{@end()}
+
+# yes talk
+
+"Uda, how can I help you?"
+
+"She, ah --"
+
+"Nara, I just want to hear what your sister has to say.  Uda?  You
+were saying?"
+
+"They're evil.  They do horrible things.  I saw her."
+
+"What did you see?"
+
+"I saw her die."
+
+"Who died?"
+
+"Nara."
+
+"Your sister."
+
+"Yes."
+
+"This is, ah --"
+
+Shush!  Yes?  Good.
+
+"She came back.  It's still her, but she's different.  This was the boots,
+but it could have been any of them.  The mantle was even worse."
+
+"What happened with the mantle?"
+
+"I couldn't remember."
+
+[[What?]]
+
+# What?
+
+"She came back, and I remembered everything, but while she was gone,
+it was... it was like she'd never existed."
+
+"So...."
+
+"You don't understand.  She's my family.  Do you have a family?"
+
+"I...."  No.  No, we're not doing this.  "What about the sword?"
+
+"She hasn't... there are... we haven't dared.  There are words.  I
+shouldn't tell you them.  You've seen what a sword does?  A normal
+one?"
+
+"Yes."
+
+"You saw us, before?"
+
+"Yes."
+
+"We must destroy these things."
+
+"How?"
+
+"Ah --"
+
+[[Nara]], I swear to god.
+
+# Nara
+
+"I don't know.  The fire, maybe."
+
+"This?  No way.  Certainly not the sword, maybe not the rest either.  You
+want, hmm... have you ever seen a volcano up close?"
+
+"No, but...."
+
+"I have."
+
+Look at me.  Mmm-hmm.
+
+You.  Her.
+
+Got it.
+
+Is this even going to work?  [[Yes]] or --
+
+# Yes
+
+Committed.
+
+"What, ah, no, stop this!"
+
+Mantle.  Good!  Now --
+
+Crap!  Sword!
+
+"Stay back!"
+
+She really -- wow.  Yep.  I'll go around.  Seriously?  Um.  Rock maybe.
+
+"What --"
+
+Got it!  Whoa.
+
+She just has no idea.  Wow.
+
+Check this thing out!  Moves like it was nothing!
+
+Agh, focus.
+
+Boots!
+
+Here we go.
+
+Can I help her?
+
+Maybe it's okay?
+
+Go, go.
+
+Do I need to say it out loud?  Let's try, uh....  Boots!  [[Take
+me to....]]
+
+# Take me to....
+
+#{@pause 7}
+
+Woooowwwww.  Wow.  Yep, here we are.  That was... these are sensitive.
+Maybe take these off.  Okay.  Phew.
+
+This place.  Wow.
+
+Mantle too.  Huh.  Wonder how they're doing back there.
+
+All right.
+
+Wow.  This is some amazing gear.
+
+Hey, those are words!  Blackletter.  All heads off, mine alone
+remain.  Something like that.  Huh!  You know, I feel like there
+have been times when I could have used something like that.
+
+So what do you think?  Should I just keep 'em?  [[Yes->yes keep]]
+or [[no->no keep]]?
+
+# yes keep
+
+Oh thank goodness, I was hoping you'd say that.
+
+Wow.  Is this gonna be awesome or what?
+
+Say [[yes->#win]].
+
+# no keep
+
+Yeah... I was kinda afraid you were going to say that.  It's probably
+for the best.
+
+There they go!
+
+Wow, that's a long way down.
+
+There goes the sword!
+
+Boots are gone.
+
+And... the mantle.
+
+I guess that's that.
+
+Hey, uh, you're going to help me get off this mountain, right?
+
+Say [[yes->#win]].
+
