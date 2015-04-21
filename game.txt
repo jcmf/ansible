@@ -1,6 +1,6 @@
 #start
 
-#{@smartPunct = true; (code = @code = (s) -> imbroglio.elem 'span', {class: 'code'}, "@@@ #{s} @@@"); (@end = -> code 'CONNECTION LOST'); (@pause = (t) -> code "CONNECTION SUSPENDED/RESUMED; ELAPSED TIME #{t}s"); code 'CONNECTION ESTABLISHED'}
+#{@smartPunct = true; (code = @code = (s) -> imbroglio.elem 'span', {class: 'code'}, "@@@ #{s} @@@"); (@lose = -> code 'CONNECTION LOST'); (@pause = (t) -> code "CONNECTION SUSPENDED/RESUMED; ELAPSED TIME #{t}s"); (@end = (text) -> imbroglio.elem 'a', {class: 'game-link', href: '#/credits'}, text); code 'CONNECTION ESTABLISHED'}
 
 There.  There it is.  Phew.
 
@@ -10,7 +10,7 @@ Can you hear me?  [[Yes->cards]] or [[no->can't hear]].
 
 Well that's not good.  Maybe if I adjust the... hold on....
 
-#{@end()}
+#{@lose()}
 
 #cards
 
@@ -25,7 +25,7 @@ Thank you for being honest.  It's... the sixteen of trumps.  Once
 again, the sixteen of trumps.  Now we both have to try again, I
 guess.  Thanks, good luck....
 
-#{@end()}
+#{@lose()}
 
 #card yes
 
@@ -70,7 +70,7 @@ Okay!  I am going to look, and, it's the sixteen of trumps.  Yep.
 Once again, it's the sixteen of trumps.  Sorry about that.  I have
 to try again.  You can try again too maybe.  Thank you, buhbye.
 
-#{@end()}
+#{@lose()}
 
 #wrong2
 
@@ -79,7 +79,7 @@ Yep.  Once again, it's the sixteen of trumps.  Sorry about that.
 I have to try again.  You can try again too maybe.  Thank you,
 bye.
 
-#{@end()}
+#{@lose()}
 
 #wrong3
 
@@ -87,7 +87,7 @@ Okay!  I am going to look, and... it's the sixteen.  Of trumps.  Yep.
 Once again, it's the sixteen of trumps.  Sorry about that.  I have to
 try again, and you should try again too.  Thank you!  G'bye!
 
-#{@end()}
+#{@lose()}
 
 #wrong4
 
@@ -95,7 +95,7 @@ Okay.  I am going to look... and it's the sixteen of trumps.  Yep.
 Once again, it's the sixteen of trumps.  I'm sorry.  I have to try
 again now.  Thank you.  Oh, you should try again too.  Okay, bye.
 
-#{@end()}
+#{@lose()}
 
 #trumps
 
@@ -110,7 +110,7 @@ it's the sixteen of trumps.  Uh.  Once again, the sixteen of trumps.
 Please make a note of it.  I have to try this again now.  Thank
 you!  Oh, you should try again too, if you can.  Uh, bye.
 
-#{@end()}
+#{@lose()}
 
 #high
 
@@ -149,7 +149,7 @@ should I just [[get started]] with that?  Or is it [[no good]]?
 
 Perfect.  I'll check back in a bit!
 
-#{@end()}
+#{@lose()}
 
 # no good
 
@@ -184,7 +184,7 @@ me?  [[Yes->messing]] or [[no->not messing]].
 All right!  Home it is.  I'm gonna turn this thing off again, it's
 really, uh, strong.  Talk to you soon.
 
-#{@end()}
+#{@lose()}
 
 # messing
 
@@ -196,26 +196,26 @@ vibrating.  I gotta turn this off.  Just... [[north->n2]],
 
 I can't believe I... we'll talk about this later, okay?
 
-#{@end()}
+#{@lose()}
 
 # w2
 
 Right on.  Wait, is it right?  It's totally right.  Right!  I'll
 check back later.
 
-#{@end()}
+#{@lose()}
 
 # e2
 
 Right... no, left.  Yes!  Left.  Good.  I'll check back in a bit.
 
-#{@end()}
+#{@lose()}
 
 # s2
 
 South.  Which would be... just, yeah, okay.  I'll talk to you later.
 
-#{@end()}
+#{@lose()}
 
 #stop
 
@@ -224,27 +224,27 @@ in my head is driving me crazy, my teeth are like... how about if
 I check back in half an hour?  Or if anything interesting happens.
 Great, catch you later.  Oh my god.  They're, like, singing.
 
-#{@end()}
+#{@lose()}
 
 #south
 
 Sounds good!  I'll check back in a bit.
 
-#{@end()}
+#{@lose()}
 
 #east
 
 So... hold on... that way.  Got it.  I'll talk to you in a bit.
 Wow, this thing is, I don't know, powerful.  Feels weird.
 
-#{@end()}
+#{@lose()}
 
 #west
 
 So... uh... wow, this thing is really getting to me, can't think
 straight.  No, I got it, this way.  Yes.  Good.  Talk to you in a bit.
 
-#{@end()}
+#{@lose()}
 
 #ring
 
@@ -276,31 +276,31 @@ Okay.  I'm at the crossroads!  I could turn [[left]], I could go
 
 Left it is!  Wow.  Okay, talk to you soon.
 
-#{@end()}
+#{@lose()}
 
 #right
 
 Right you are!  Heh heh... whoa, okay, I'll talk to you soon.
 
-#{@end()}
+#{@lose()}
 
 #straight
 
 Got it.  Yeah, I'm just going to, I'll talk to you soon.
 
-#{@end()}
+#{@lose()}
 
 #here
 
 Ugh.  Hold on, I need to eat something.  I'll be right back.
 
-#{@end()}
+#{@lose()}
 
 #castle
 
 Castle it is!  I'll check back in when I get close.
 
-#{@end()}
+#{@lose()}
 
 #not
 
@@ -311,7 +311,7 @@ So you just want me to stay here?  [[Yes->stay]] or [[no->go]]?
 Fine.  Let me... I'm still kind of hungry actually.  I'll be back
 in a minute.
 
-#{@end()}
+#{@lose()}
 
 #go
 
@@ -343,7 +343,7 @@ No change.
 
 This protuberance could be a winding mechanism.  Perhaps
 
-#{@end()}
+#{@lose()}
 
 # check it out
 
@@ -361,7 +361,7 @@ All right.
 
 Hold on, I want to see if I can hear if I take this off.
 
-#{@end()}
+#{@lose()}
 
 # closer
 
@@ -420,7 +420,7 @@ Maybe I could still... I could [[pretend]] I was just... or just
 
 "Mine alone remain!"
 
-#{@end()}
+#{@lose()}
 
 # pretend
 
@@ -504,7 +504,7 @@ That was exciting, right?  What the hell.  Right?
 
 Hold
 
-#{@end()}
+#{@lose()}
 
 # Do it?
 
@@ -678,7 +678,7 @@ but not physically, ah --"
 "We'll have plenty of time to discuss that, I'm certain, but for
 now if I might assist you with, ah, there, if you would --"
 
-#{@end()}
+#{@lose()}
 
 # no examine
 
@@ -812,9 +812,9 @@ much talking as maybe doing something.  Get out of here, maybe?
 # Uda
 
 Oh good, I was worried you were maybe going to side with Nara and
-I was going to... well anyway.  
+I was going to... well anyway.
 
-So.  Act now?  [[Yes->yes act]] or no [[no act]]?
+So.  Act now?  [[Yes->yes act]] or [[no->no act]]?
 
 # no act
 
@@ -837,7 +837,7 @@ Let me get a little distance first.
 
 Wow, this thing is giving me a headache.  I'll check back.
 
-#{@end()}
+#{@lose()}
 
 # yes talk
 
@@ -902,9 +902,9 @@ one?"
 
 "Ah --"
 
-[[Nara]], I swear to god.
+[[Nara, I swear to god.]]
 
-# Nara
+# Nara, I swear to god.
 
 "I don't know.  The fire, maybe."
 
@@ -962,7 +962,7 @@ me to....]]
 
 # Take me to....
 
-#{@pause 7}
+#{@pause 0}
 
 Woooowwwww.  Wow.  Yep, here we are.  That was... these are sensitive.
 Maybe take these off.  Okay.  Phew.
@@ -988,7 +988,7 @@ Oh thank goodness, I was hoping you'd say that.
 
 Wow.  Is this gonna be awesome or what?
 
-Say [[yes->#win]].
+Say #{@end 'yes'}.
 
 # no keep
 
@@ -1009,5 +1009,48 @@ I guess that's that.
 
 Hey, uh, you're going to help me get off this mountain, right?
 
-Say [[yes->#win]].
+Say #{@end 'yes'}.
+
+# fast yes
+
+I'll just get going then.
+
+#{pause 14892}
+
+I think I'm the only one left.
+
+We have to fix this.
+
+Maybe the Water of Life?
+
+Is that even a real thing?
+
+Don't answer that.
+
+Is there hope?
+
+Say #{@end 'yes'}.
+
+# fast no
+
+I could... the boots, the mantle.  They're still here.  [[Yes->yes
+loot]]] or [[no->no loot]]?
+
+# yes loot
+
+Okay.  Ugh, this is freaking me out.
+
+Here we go.
+
+I've got them.
+
+May as well wear them.
+
+I wonder if --
+
+#{@pause 0}
+
+-- oh.  Gosh.  That was -- oh my god, is that the --
+
+#{@lose()}
 
