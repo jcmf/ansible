@@ -575,8 +575,7 @@ Sounds pretty fancy!  "And the sword?"
 "The sword is, ah, preternaturally sharp."
 
 "I, uh, got it."  Gosh.  Okay.  Well.  I could... ask more
-[[questions]], I could [[suggest]] something, I could... um... try
-to think of something [[else]]....
+[[questions]], I could [[suggest]] something, I could... um....
 
 # questions
 
@@ -624,10 +623,10 @@ Agh, what now?  [[Yes->yes examine]], or [[no->no examine]]?
 
 "Really!  How very appropriate.  What properties does it have?"
 
-"It, uh... sometimes you can ask it a question... I mean it takes
-some practice, you can't just... I mean you can, you can try it,
-but... I just, I spent a lot of time earlier adjusting it, so don't
---"
+"It, uh... there's, like, an angel, and sometimes you can ask it a
+question... I mean it takes some practice, you can't just... I mean
+you can, you can try it, but... I just, I spent a lot of time finding
+a good one, so don't mess --"
 
 #{@pause 20}
 
@@ -694,9 +693,7 @@ Huh.  [[Yes->yes uda]], [[no->no uda]]?
 
 # yes uda
 
-"Okay, just, uh... be careful of this part, it's very, um, delicate,
-so try not to brush it or, like, twist it, or anything.  Also, if
-you, um...."
+"Okay, just, uh... be careful of this bit here --"
 
 "I know."
 
@@ -706,12 +703,70 @@ Okay.  Be cool.
 
 #{@pause 4}
 
-Hello.  We met!  Not you, I s'pose.  Another of you.  Please help!
+Hello!  We met!  Not you, I s'pose.  Another of you.  Please help!
 I'm too...
 
 "There we go!  Now, ah --"
 
-Oh no.  [[Fight]].  [[Speak]].  [[Wait]].
+No time!  [[Act?]]  [[Speak?]]  [[Wait?]]
+
+# Act?
+
+[[Boots?]]  [[Sword?]]  [[Cloak?]]
+
+# Boots?
+
+"Uda!  What --"
+
+There.  [[Burn them?]]  [[Run?]]
+
+# Burn them?
+
+"-- do you --"
+
+Missed...?  [[Fetch?]]  [[Away?]]
+
+# Fetch?
+
+" -- think, ah!"
+
+No no
+
+#{@lose()}
+
+# Away?
+
+" -- think you're, ah!"
+
+No
+
+#{@lose()}
+
+# Run?
+
+" -- do you think you're, ah!"
+
+No, no
+
+#{@lose()}
+
+# Sword?
+
+"Uda!  What, ah, no --"
+
+#{@lose()}
+
+# Cloak?
+
+"Uda!  What, ah... Valeria, you were saying?"
+
+[[Whaaat.]]
+
+# Speak?
+
+"Stop!  You can't."
+
+[[(where am I going with this?)]]
 
 # no uda
 
@@ -802,12 +857,6 @@ that the totality of the items in question might go to --"
 "I'm afraid my sister is very, ah, superstitious."
 
 Hey, question: Who do you think is right?  [[Nara]]?  [[Uda]]?  [[Neither]]?
-
-# else
-
-Hmm.  Something else.  Not a question or a suggestion.  So not so
-much talking as maybe doing something.  Get out of here, maybe?
-[[Yes->yes get out]] or [[no->no get out]]?
 
 # Uda
 
@@ -1046,11 +1095,43 @@ I've got them.
 
 May as well wear them.
 
+There!
+
 I wonder if --
 
 #{@pause 0}
 
--- oh.  Gosh.  That was -- oh my god, is that the --
+-- oh.  Here we are!  Gosh.  That was -- oh my god, is that the --
 
 #{@lose()}
+
+# yes act
+
+Then do I go for the [[sword->go sword]], the [[boots->go boots]],
+the [[mantle->go mantle]]?  Maybe [[Nara->go Nara]]?
+
+# go sword
+
+She's close, I -- whoop
+
+#{lose()}
+
+# go boots
+
+I think I can, got em.  Ack, can I
+
+#{lose()}
+
+# go mantle
+
+Go, go, got it!  Do they really... huh.
+
+[[What next?]]
+
+# go Nara
+
+She's going for the sword, I
+
+#{lose()}
+
 
