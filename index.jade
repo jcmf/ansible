@@ -17,7 +17,6 @@ html(lang='en')
           font-weight bold
           src url(fonts/Exo2-Bold.woff)
         body
-          font-size 20px
           font-family "Exo 2", sans-serif
           margin 0
           padding 0
@@ -25,10 +24,14 @@ html(lang='en')
           color black
           background-color white
         p
-          margin 0
           padding 0.5em
           margin 0 auto
           max-width 40em
+        iframe
+          display block
+          padding 0.5em 0
+          margin 0 auto
+          border none
         .logo-container
           margin 0 auto
           max-width 50em
@@ -61,6 +64,30 @@ html(lang='en')
         .error
           color black
           background-color red
+
+        body
+          font-size 20px
+        iframe
+          width 853px
+          height 480px
+        @media all and (max-width: 852px)
+          body
+            font-size 16px
+          iframe
+            width 560px
+            height 315px
+        @media all and (max-height: 479px)
+          body
+            font-size 16px
+          iframe
+            width 560px
+            height 315px
+        @media all and (min-width: 1280px) and (min-height: 720px)
+          body
+            font-size 28px
+          iframe
+            width 1280px
+            height 720px
   body
     #loading
       .menu
@@ -95,13 +122,13 @@ html(lang='en')
 
       .current
         :markdown
-          Kat Davis sent you ... "Save the World / Don't You Worry
-          Child" by Pentatonix  https://www.youtube.com/watch?v=7YAcMgoSpDE
+          Kat Davis sent you "Save the World / Don't You Worry
+          Child" by Pentatonix
+
+          <iframe src="https://www.youtube.com/embed/7YAcMgoSpDE?rel=0&showinfo=0&cc_lang_pref=en&cc_load_policy=1" allowfullscreen></iframe>
 
           Which is an a capella mash-up of "Save the World" and "Don't
-          You Worry Child", both by Swedish House Mafia.
-
-          http://www.gutenberg.org/files/37381/37381-h/37381-h.htm#Page_114
+          You Worry Child," both by Swedish House Mafia.
 
           [home](#)
     #game

@@ -17739,7 +17739,6 @@ return jQuery;
   src: url("fonts/Exo2-Bold.woff");
 }
 body {
-  font-size: 20px;
   font-family: "Exo 2", sans-serif;
   margin: 0;
   padding: 0;
@@ -17748,10 +17747,15 @@ body {
   background-color: #fff;
 }
 p {
-  margin: 0;
   padding: 0.5em;
   margin: 0 auto;
   max-width: 40em;
+}
+iframe {
+  display: block;
+  padding: 0.5em 0;
+  margin: 0 auto;
+  border: none;
 }
 .logo-container {
   margin: 0 auto;
@@ -17800,6 +17804,40 @@ a[href]:hover {
   color: #000;
   background-color: #f00;
 }
+body {
+  font-size: 20px;
+}
+iframe {
+  width: 853px;
+  height: 480px;
+}
+@media all and (max-width: 852px) {
+  body {
+    font-size: 16px;
+  }
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+@media all and (max-height: 479px) {
+  body {
+    font-size: 16px;
+  }
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+@media all and (min-width: 1280px) and (min-height: 720px) {
+  body {
+    font-size: 28px;
+  }
+  iframe {
+    width: 1280px;
+    height: 720px;
+  }
+}
 </style></head><body><div id="loading"><div class="menu"><p><a href="#">home</a></p>
 </div><div class="current"><p>loading</p>
 </div></div><div id="404-pane" class="pane"><div class="menu"><p><a href="#">home</a></p>
@@ -17807,11 +17845,12 @@ a[href]:hover {
 </div></div><div id="home" class="pane"><div class="menu"><div class="logo-container"><div class="logo"><span class="light">@@@ </span><span class="dark">ansible</span><span class="light"> @@@</span></div></div></div><div class="current"><p>version 0.0.1</p>
 <p><a href="#!">start</a> &#x2014; <a href="#/credits">credits</a></p>
 </div></div><div id="credits-pane" class="pane"><div class="menu"><p><a href="#">home</a></p>
-</div><div class="current"><p>Kat Davis sent you ... &quot;Save the World / Don&apos;t You Worry
-Child&quot; by Pentatonix  <a href="https://www.youtube.com/watch?v=7YAcMgoSpDE">https://www.youtube.com/watch?v=7YAcMgoSpDE</a></p>
+</div><div class="current"><p>Kat Davis sent you &quot;Save the World / Don&apos;t You Worry
+Child&quot; by Pentatonix</p>
+<iframe src="https://www.youtube.com/embed/7YAcMgoSpDE?rel=0&amp;showinfo=0&amp;cc_lang_pref=en&amp;cc_load_policy=1" allowfullscreen></iframe>
+
 <p>Which is an a capella mash-up of &quot;Save the World&quot; and &quot;Don&apos;t
-You Worry Child&quot;, both by Swedish House Mafia.</p>
-<p><a href="http://www.gutenberg.org/files/37381/37381-h/37381-h.htm#Page_114">http://www.gutenberg.org/files/37381/37381-h/37381-h.htm#Page_114</a></p>
+You Worry Child,&quot; both by Swedish House Mafia.</p>
 <p><a href="#">home</a></p>
 </div></div><div id="game"><div class="menu"><p><a href="#">quit</a></p>
 </div><div id="output"></div></div></body></html>
