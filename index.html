@@ -17738,12 +17738,25 @@ return jQuery;
 }
 body {
   font-family: "Exo 2", sans-serif;
-  margin: 0 auto;
-  padding: 0.5em;
-  max-width: 40em;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
   color: #000;
+  background-color: #fff;
+}
+p {
+  margin: 0;
+  padding: 0.5em;
+  margin: 0 auto;
+  max-width: 40em;
+}
+.passage,
+.menu {
   background-color: #ddd;
+}
+.passage.current,
+.menu.current {
+  background-color: #fff;
 }
 .chosen,
 .current,
@@ -17766,15 +17779,18 @@ a[href]:hover {
   color: #000;
   background-color: #f00;
 }
-</style></head><body><div id="loading"><p>loading <a href="#">home</a></p>
-</div><div id="404-pane" class="pane"><p>404 <a href="#">home</a></p>
-</div><div id="home" class="pane"><p>home <a href="#!">start</a> <a href="#/credits">credits</a></p>
-</div><div id="credits-pane" class="pane"><p><a href="#">home</a></p>
-<p>Kat Davis sent you ... &quot;Save the World / Don&apos;t You Worry
+</style></head><body><div id="loading"><div class="menu"><p><a href="#">home</a></p>
+</div><div class="current"><p>loading</p>
+</div></div><div id="404-pane" class="pane"><div class="menu"><p><a href="#">home</a></p>
+</div><div class="current"><p>404</p>
+</div></div><div id="home" class="pane"><div class="menu"><p><a href="#!">start</a> - <a href="#/credits">credits</a></p>
+</div><div class="current"><p>home</p>
+</div></div><div id="credits-pane" class="pane"><div class="menu"><p><a href="#">home</a></p>
+</div><div class="current"><p>Kat Davis sent you ... &quot;Save the World / Don&apos;t You Worry
 Child&quot; by Pentatonix  <a href="https://www.youtube.com/watch?v=7YAcMgoSpDE">https://www.youtube.com/watch?v=7YAcMgoSpDE</a></p>
 <p>Which is an a capella mash-up of &quot;Save the World&quot; and &quot;Don&apos;t
 You Worry Child&quot;, both by Swedish House Mafia.</p>
 <p><a href="http://www.gutenberg.org/files/37381/37381-h/37381-h.htm#Page_114">http://www.gutenberg.org/files/37381/37381-h/37381-h.htm#Page_114</a></p>
 <p><a href="#">home</a></p>
-</div><div id="game"><p>game <a href="#">home</a></p>
-<div id="output"></div></div></body></html>
+</div></div><div id="game"><div class="menu"><p><a href="#">quit</a></p>
+</div><div id="output"></div></div></body></html>

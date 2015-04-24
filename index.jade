@@ -18,12 +18,20 @@ html(lang='en')
           src url(fonts/Exo2-Bold.woff)
         body
           font-family "Exo 2", sans-serif
-          margin 0 auto
-          padding 0.5em
-          max-width 40em
+          margin 0
+          padding 0
           line-height 1.5
           color black
+          background-color white
+        p
+          margin 0
+          padding 0.5em
+          margin 0 auto
+          max-width 40em
+        .passage, .menu
           background-color #ddd
+          &.current
+            background-color white
         .chosen, .current, a[href]:hover
           background-color white
           border-radius 0.2em
@@ -40,28 +48,44 @@ html(lang='en')
           background-color red
   body
     #loading
-      :markdown
-        loading [home](#)
+      .menu
+        :markdown
+          [home](#)
+      .current
+        :markdown
+          loading
     #404-pane.pane
-      :markdown
-        404 [home](#)
+      .menu
+        :markdown
+          [home](#)
+      .current
+        :markdown
+          404
     #home.pane
-      :markdown
-        home [start](#!) [credits](#/credits)
+      .menu
+        :markdown
+          [start](#!) - [credits](#/credits)
+      .current
+        :markdown
+          home
     #credits-pane.pane
-      :markdown
-        [home](#)
+      .menu
+        :markdown
+          [home](#)
 
-        Kat Davis sent you ... "Save the World / Don't You Worry
-        Child" by Pentatonix  https://www.youtube.com/watch?v=7YAcMgoSpDE
+      .current
+        :markdown
+          Kat Davis sent you ... "Save the World / Don't You Worry
+          Child" by Pentatonix  https://www.youtube.com/watch?v=7YAcMgoSpDE
 
-        Which is an a capella mash-up of "Save the World" and "Don't
-        You Worry Child", both by Swedish House Mafia.
+          Which is an a capella mash-up of "Save the World" and "Don't
+          You Worry Child", both by Swedish House Mafia.
 
-        http://www.gutenberg.org/files/37381/37381-h/37381-h.htm#Page_114
+          http://www.gutenberg.org/files/37381/37381-h/37381-h.htm#Page_114
 
-        [home](#)
+          [home](#)
     #game
-      :markdown
-        game [home](#)
+      .menu
+        :markdown
+          [quit](#)
       #output
