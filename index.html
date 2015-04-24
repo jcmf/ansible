@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><title>untitled ShuffleComp game</title><script>(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+<!DOCTYPE html><html lang="en"><head><title>ansible</title><script>(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 (function() {
   var play, src;
 
@@ -17739,6 +17739,7 @@ return jQuery;
   src: url("fonts/Exo2-Bold.woff");
 }
 body {
+  font-size: 20px;
   font-family: "Exo 2", sans-serif;
   margin: 0;
   padding: 0;
@@ -17751,6 +17752,21 @@ p {
   padding: 0.5em;
   margin: 0 auto;
   max-width: 40em;
+}
+.logo-container {
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 1em 0.5em;
+  padding-left: 4em;
+  text-indent: -2em;
+  line-height: 1;
+}
+.logo {
+  font-size: 300%;
+  font-weight: bold;
+}
+.light {
+  color: #bbb;
 }
 .passage,
 .menu {
@@ -17785,8 +17801,8 @@ a[href]:hover {
 </div><div class="current"><p>loading</p>
 </div></div><div id="404-pane" class="pane"><div class="menu"><p><a href="#">home</a></p>
 </div><div class="current"><p>404</p>
-</div></div><div id="home" class="pane"><div class="menu"><p><a href="#!">start</a> - <a href="#/credits">credits</a></p>
-</div><div class="current"><p>home</p>
+</div></div><div id="home" class="pane"><div class="menu"><div class="logo-container"><div class="logo"><span class="light">@@@ </span><span class="dark">ansible</span><span class="light"> @@@</span></div></div></div><div class="current"><p>version 0.0.1</p>
+<p><a href="#!">start</a> &#x2014; <a href="#/credits">credits</a></p>
 </div></div><div id="credits-pane" class="pane"><div class="menu"><p><a href="#">home</a></p>
 </div><div class="current"><p>Kat Davis sent you ... &quot;Save the World / Don&apos;t You Worry
 Child&quot; by Pentatonix  <a href="https://www.youtube.com/watch?v=7YAcMgoSpDE">https://www.youtube.com/watch?v=7YAcMgoSpDE</a></p>

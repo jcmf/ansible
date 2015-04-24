@@ -1,7 +1,7 @@
 doctype html
 html(lang='en')
   head
-    title untitled ShuffleComp game
+    title ansible
     script
       :coffeescript
         {src} = require './game'
@@ -17,6 +17,7 @@ html(lang='en')
           font-weight bold
           src url(fonts/Exo2-Bold.woff)
         body
+          font-size 20px
           font-family "Exo 2", sans-serif
           margin 0
           padding 0
@@ -28,6 +29,18 @@ html(lang='en')
           padding 0.5em
           margin 0 auto
           max-width 40em
+        .logo-container
+          margin 0 auto
+          max-width 50em
+          padding 1em 0.5em
+          padding-left 4em
+          text-indent -2em
+          line-height 1
+        .logo
+          font-size 300%
+          font-weight bold
+        .light
+          color #bbb
         .passage, .menu
           background-color #ddd
           &.current
@@ -63,11 +76,16 @@ html(lang='en')
           404
     #home.pane
       .menu
-        :markdown
-          [start](#!) - [credits](#/credits)
+        .logo-container
+          .logo
+            span.light= '@@@ '
+            span.dark ansible
+            span.light= ' @@@'
       .current
         :markdown
-          home
+          version #{package.version}
+
+          [start](#!) &mdash; [credits](#/credits)
     #credits-pane.pane
       .menu
         :markdown
