@@ -162,10 +162,10 @@ Sounds good!  I'll see you in a bit.
 
 #{@pause 5424}
 
-Hey, are you... wow, you're totally there, I can tell.  Reception
-must be good out here or something.  Oh my god, this is trippy.
-Sorry, okay.  I'm at the crossroads!  So, uh... [[north]], [[south]],
-[[east]], or [[west]]?
+Hey, oh, wow, I was going to ask if you were there but you are way
+more there than usual.  Oh my god, this is trippy.  Sorry, okay.
+I'm at the crossroads!  So, uh... [[north]], [[south]], [[east]],
+or [[west]]?
 
 #north
 
@@ -181,7 +181,7 @@ me?  [[Yes->messing]] or [[no->not messing]].
 
 # not messing
 
-All right!  Home it is.  I'm gonna turn this thing off again, it's
+All right!  Home it is.  I'm gonna take this thing off again, it's
 really, uh, strong.  Talk to you soon.
 
 #{@lose()}
@@ -189,7 +189,7 @@ really, uh, strong.  Talk to you soon.
 # messing
 
 Seriously?  You think this is... oh my god, my teeth are, like,
-vibrating.  I gotta turn this off.  Just... [[north->n2]],
+vibrating.  I gotta take this off.  Just... [[north->n2]],
 [[south->s2]], [[east->e2]], or [[west->w2]]?
 
 # n2
