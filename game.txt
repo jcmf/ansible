@@ -373,15 +373,15 @@ Okay, I
 
 "Listen!  Just listen!"
 
-"Like you listened to me?  I don't have to --"
+"As you listened to me earlier?  I need not --"
 
 "Listen!"
 
-wow,
+Wow,
 
-"I don't have to!  It's mine!  It's mine by right!  He told us --"
+"I need not and shall not!  It's mine!  It's mine by right!  His words --"
 
-"No, listen!  There!  Did you hear it?"
+"There!  Hear it?"
 
 Crap.  Crap crap crap.
 
@@ -392,7 +392,7 @@ Maybe I could still... I could [[pretend]] I was just... or just
 
 "Who's there?"
 
-"We know you're out there!"
+"We know you're there!"
 
 "You cannot deceive us!"
 
@@ -410,15 +410,15 @@ Maybe I could still... I could [[pretend]] I was just... or just
 
 "You wouldn't."
 
-"Two birds...."
+"Two birds."
 
 "Drop it!"
 
-"All heads off."
+"All heads off..."
 
 "Don't do this!"
 
-"Mine alone remain!"
+"...mine alone remain!"
 
 #{@lose()}
 
