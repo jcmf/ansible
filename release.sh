@@ -1,6 +1,6 @@
 #!/bin/sh
+[ -n "$* ] || set patch
 set -ex
-test -n "$*"
 cd "`dirname $0`"
 test -z "`git status --porcelain 2>&1`"
 ./build.sh
