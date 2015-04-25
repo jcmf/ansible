@@ -4,6 +4,10 @@ html(lang='en')
     title ansible
     script
       :coffeescript
+        $ = require 'jquery'
+        $ -> $('a[href="#back"]').click ->
+          window.history.back()
+          false
         {src} = require './game'
         {play} = require 'imbroglio'
         play.start src
@@ -95,15 +99,8 @@ html(lang='en')
           [home](#)
       .current
         :markdown
-          loading
-    #404-pane.pane
-      .menu
-        :markdown
-          [home](#)
-      .current
-        :markdown
-          404
-    #home.pane
+          **@@@ LOADING @@@**
+    #home.pane(style="display: none;")
       .menu
         .logo-container
           .logo
@@ -115,10 +112,22 @@ html(lang='en')
           version #{package.version}
 
           [start](#!) &mdash; [credits](#/credits)
-    #credits-pane.pane
+    #404-pane.pane(style="display: none;")
       .menu
         :markdown
-          [home](#)
+          [back](#back) &mdash; [home](#)
+      .current
+        :markdown
+          **@@@ PAGE NOT FOUND @@@**
+    #game(style="display: none;")
+      .menu
+        :markdown
+          [quit](#)
+      #output
+    #credits-pane.pane(style="display: none;")
+      .menu
+        :markdown
+          [back](#back) &mdash; [home](#)
 
       .current
         :markdown
@@ -130,9 +139,4 @@ html(lang='en')
           Which is an a capella mash-up of "Save the World" and "Don't
           You Worry Child," both by Swedish House Mafia.
 
-          [home](#)
-    #game
-      .menu
-        :markdown
-          [quit](#)
-      #output
+          [back](#back) &mdash; [home](#)
