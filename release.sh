@@ -11,4 +11,4 @@ git commit -am "$version"
 git tag -am "$version" "$version"
 # git push
 # npm publish
-ssh toastball.net 'cat > tmp && test -s tmp && mv tmp www/toastball.net/ansible/index.html' < index.html
+ssh toastball.net 'cat > tmp && test -s tmp && mv tmp www/toastball.net/games/ansible/index.html' < index.html
