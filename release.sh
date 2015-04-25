@@ -1,5 +1,5 @@
 #!/bin/sh
-[ -n "$* ] || set patch
+[ -n "$*" ] || set patch
 set -ex
 cd "`dirname $0`"
 test -z "`git status --porcelain 2>&1`"
