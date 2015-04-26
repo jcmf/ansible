@@ -1097,7 +1097,7 @@ Say #{@end 'yes'}.
 
 I'll just get going then.
 
-#{pause 14802}
+#{@pause 14802}
 
 I think I'm the only one left.
 
