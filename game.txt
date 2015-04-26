@@ -258,8 +258,8 @@ castle, or [[no->no castle]] castle?
 # no castle
 
 Not the castle.  Is it... agh... it doesn't even matter where it
-is, I just need to, like, make progress somehow, right?  Look, we're
-in the middle of nowhere here, right?  I could head down the [[road]],
+is, I just need to, like, make progress somehow?  Look, we're in
+the middle of nowhere here, right?  I could head down the [[road]],
 I could... uh... [[not]] head down the road?
 
 # road
@@ -524,7 +524,7 @@ Yikes.
 
 "Okay."
 
-"My sister and I are the recent recipients of an inheritence.  Being
+"My sister and I are the recent recipients of an inheritance.  Being
 quite, ah, stupid, we are unable to divide it amicably."
 
 "So... someone died?"
@@ -550,7 +550,7 @@ Huh!
 
 Ooh!
 
-"Don't you listen to her lies!  They're dangerous!  Cursed!"
+"Lies!  Don't listen!  Dangerous!  Cursed!"
 
 Oho?
 
@@ -584,7 +584,7 @@ Sounds pretty fancy!  "And the sword?"
 "How very astute of you!  Why, that is the very purpose which we
 had envisioned when we brought you here!"
 
-"Speak for yourself!"
+"Liar!"
 
 "Ah, see how hopeless it would be to expect us to resolve this difficulty
 without your assistance!  Truly, you are our only hope!"
@@ -741,11 +741,7 @@ Don't want it!  No, no, no, no, no, "no, [[no->nono]]"
 
 "Demonstrate the operation of these artifacts, you mean?"
 
-Crap.  [[Yes->yes demo]]?  [[No->no demo]]?
-
-# yes demo
-
-"Uh, yes, sure!  Could you?"
+"That's right.  Could you?"
 
 "No!"
 
@@ -760,12 +756,6 @@ What --
 "Mine alone remain!"
 
 #{@lose()}
-
-# no demo
-
-"Uh, no, I... no."
-
-[[(where was I going with this?)]]
 
 # mantle
 
@@ -1185,3 +1175,53 @@ Gotta get behind --
 "Mine alone remain!"
 
 #{lose()}
+
+# Nara
+
+Really?  I guess... I guess even scary horrible people can be right
+about some things.
+
+"Look, Uda... is there any way --"
+
+"No!"
+
+"You just... you don't think anyone should have them."
+
+"No!"
+
+"But what if someone did?"
+
+"No!"
+
+"I... listen, I don't know what I can do here.  You sure you don't want to
+do the coin thing?  Maybe just twice, once to --"
+
+"No no no --"
+
+"Uda!"
+
+Whoops --
+
+@{lose()}
+
+# Neither
+
+Hmm, that's an idea.
+
+"Why don't you just give them to me, then?"
+
+"Well, ah --"
+
+"No!"
+
+"I mean it's fair, right?  That way neither of you gets more than the other."
+
+"But --"
+
+"I mean I'm just saying, if you really can't agree --"
+
+"Uda!"
+
+Crap --
+
+#{@lose()}
