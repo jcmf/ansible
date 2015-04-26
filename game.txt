@@ -316,7 +316,7 @@ in a minute.
 #go
 
 Okay, I guess I'll just go wander aimlessly through the forest,
-then!
+then!  Jeez.
 
 #{@pause 722}
 
@@ -333,15 +333,15 @@ anything else.
 
 A presence!  Not alone.  Not alone.  Hope!
 
-Help me!
+"Can you hear me?"
 
-Disaster!  Stupid, stupid disaster.
+Purely sensory, perhaps?  Illusion?
 
-Can we communicate?
+"Something terrible has occurred!"
 
 No change.
 
-This protuberance could be a winding mechanism.  Perhaps
+This protuberance could be a winding mechanism.  Perhaps --
 
 #{@lose()}
 
