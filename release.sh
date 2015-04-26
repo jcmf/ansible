@@ -8,7 +8,7 @@ test -z "`git status --porcelain 2>&1`"
 npm version --git-tag-version=false "$@"
 ./build.sh
 version="v`node -e 'console.log(JSON.parse(require("fs").readFileSync("package.json", "utf8")).version)'`"
-git cp index.html "old/ansible-v$version.html"
+cp index.html "old/ansible-v$version.html"
 git add .
 git commit -m "$version"
 git tag -am "$version" "$version"
