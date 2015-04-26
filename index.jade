@@ -12,6 +12,20 @@ html(lang='en')
           $('a[href="#back"]').click ->
             window.history.back()
             false
+          seq = 0
+          hashchange = ->
+            $.ajax {
+              url: 'http://toastball.net/games/ansible/xscript'
+              crossDomain: true
+              dataType: 'jsonp'
+              success: ->
+              data:
+                u: window.location.href
+                s: seq++
+            }
+            true
+          hashchange()
+          $(window).on 'hashchange', hashchange
         {src} = require './game'
         {play} = require 'imbroglio'
         play.start src

@@ -5,14 +5,31 @@
   $ = require('jquery');
 
   $(function() {
+    var hashchange, seq;
     if (window.location.href !== "http://toastball.net/games/ansible/") {
       $('.upgrade').show();
     }
     $('.credits a').attr('target', '_blank');
-    return $('a[href="#back"]').click(function() {
+    $('a[href="#back"]').click(function() {
       window.history.back();
       return false;
     });
+    seq = 0;
+    hashchange = function() {
+      $.ajax({
+        url: 'http://toastball.net/games/ansible/xscript',
+        crossDomain: true,
+        dataType: 'jsonp',
+        success: function() {},
+        data: {
+          u: window.location.href,
+          s: seq++
+        }
+      });
+      return true;
+    };
+    hashchange();
+    return $(window).on('hashchange', hashchange);
   });
 
   src = require('./game').src;
