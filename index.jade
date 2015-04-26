@@ -5,9 +5,11 @@ html(lang='en')
     script
       :coffeescript
         $ = require 'jquery'
-        $ -> $('a[href="#back"]').click ->
-          window.history.back()
-          false
+        $ ->
+          $('.credits a').attr 'target', '_blank'
+          $('a[href="#back"]').click ->
+            window.history.back()
+            false
         {src} = require './game'
         {play} = require 'imbroglio'
         play.start src
@@ -31,6 +33,22 @@ html(lang='en')
           padding 0.5em
           margin 0 auto
           max-width 40em
+        .credits
+          padding 0.5em
+          margin 0 auto
+          display table
+          table-layout fixed
+        .credit
+          display table-row
+        .what, .whos
+          display table-cell
+          width 50%
+        .what
+          text-align right
+          padding-right 0.5em
+        .whos
+          padding-left 0.5em
+          vertical-align bottom
         iframe
           display block
           padding 0.5em 0
@@ -43,6 +61,10 @@ html(lang='en')
           padding-left 4em
           text-indent -2em
           line-height 1
+        .credit-container
+          margin 0
+          padding 0.5em
+          text-align center
         .logo
           font-size 300%
           font-weight bold
@@ -127,20 +149,104 @@ html(lang='en')
       #output
     #credits-pane.pane(style="display: none;")
       .menu
-        :markdown
-          [back](#back) /// [home](#)
-
+        .credit-container
+          :markdown
+            [back](#back) /// [home](#)
       .current
-        :markdown
-          Kat Davis sent you "Save the World / Don't You Worry
-          Child" by Pentatonix
-
-          <iframe src="https://www.youtube.com/embed/7YAcMgoSpDE?rel=0&showinfo=0&cc_lang_pref=en&cc_load_policy=1" allowfullscreen></iframe>
-
-          Which is an a capella mash-up of "Save the World" and "Don't
-          You Worry Child," both by Swedish House Mafia.
-
-          [back](#back) /// [home](#)
+        .credit-container
+          .logo
+            span.light= '@@@ '
+            span.dark ansible
+            span.light= ' @@@'
+        .credits
+          .credit
+            .what written by
+            .whos
+              .who Jacques Frechet
+          .credit
+            .what with help from beta testers
+            .whos
+              .who Your Name Here
+              .who Your Name Here and
+              .who Your Name Here
+          .credit
+            .what for
+            .whos
+              .who
+                a(href='http://www.nigeljayne.ca/shufflecomp2015.html') ShuffleComp: Disc 2
+          .credit
+            .what using
+            .whos
+              .who
+                a(href='http://coffeescript.org/') CoffeeScript
+              .who
+                a(href='https://nodejs.org/') Node.js
+              .who
+                a(href='http://browserify.org/') Browserify
+              .who
+                a(href='http://jade-lang.com/') Jade
+              .who
+                a(href='https://learnboost.github.io/stylus/') Stylus
+                =' and'
+              .who
+                a(href='https://jquery.com/') jQuery
+          .credit
+            .what and the font
+            .whos
+              .who
+                a(href='http://www.google.com/fonts/specimen/Exo+2') Exo 2
+          .credit
+            .what by
+            .whos
+              .who
+                a(href='http://ndiscovered.com/') Natanael Gama
+          .credit
+            .what
+              ='inspired by the '
+              a(href='https://www.youtube.com/watch?v=7YAcMgoSpDE') song
+              =' suggested by'
+            .whos
+              .who Kat Davis
+          .credit
+            .what and created and performed by
+            .whos
+              .who
+                a(href='http://ptxofficial.com/') Pentatonix
+          .credit
+            .what which is a cover/mash-up of the songs
+            .whos
+              .who
+                a(href='https://www.youtube.com/watch?v=BXpdmKELE1k') Save the World
+                =' and'
+              .who 
+                a(href='https://www.youtube.com/watch?v=1y6smkh6c-0') Don't You Worry Child
+          .credit
+            .what originally written and performed by
+            .whos
+              .who
+                a(href='http://en.wikipedia.org/wiki/Swedish_House_Mafia') Swedish House Mafia
+          .credit
+            .what some of whose lyrics brought to mind
+            .whos
+              .who
+                a(href='http://www.bookiejar.com/Content/Books/7ccbe2a1-12a9-41fa-a3ff-0f8ebaf40ef6/2339_r1/37381/www.gutenberg.org@files@37381@37381-h@37381-h-4.htm.html#pgepubid00026') The King of the Golden Mountain
+          .credit
+            .what as collected and published by
+            .whos
+              .who
+                a(href='http://en.wikipedia.org/wiki/Grimms%27_Fairy_Tales') The Brothers Grimm
+          .credit
+            .what
+              ='the term '
+              a(href='http://en.wikipedia.org/wiki/Ansible') &ldquo;ansible&rdquo;
+              =' was coined by'
+            .whos
+              .who
+                a(href='http://www.ursulakleguin.com/') Ursula K. Le Guin
+        iframe(src="https://www.youtube.com/embed/7YAcMgoSpDE?rel=0" allowfullscreen)
+        .credit-container
+          :markdown
+            [back](#back) /// [home](#)
     #walkthrough-pane.pane(style="display: none;")
       .menu
         :markdown
@@ -154,18 +260,22 @@ html(lang='en')
           want to head over there now.
 
           Also, if you need to get in touch with me, you can do so
-          at <zaphod@toastball.net>.  Two things which are often
+          at <zaphod@toastball.net>.  Three things which are often
           extremely helpful to include in bug reports or other
           comments are **links** to whichever bit of the game you
-          want to refer to (the full URL works great, or you can
-          cut off everything before the # if you prefer), and the
-          **version number**, which can be found on the [front
-          page](#).
+          want to refer to (full URL is fine, or you can cut off
+          everything before the # if you prefer); the **version
+          number**, which can be found on the [front page](#); and
+          how you want **your name** to appear on the [credits](#/credits)
+          page.
+
+          My name is Jacques Frechet, by the way.  Hi!  I'm not
+          using a pseudonym.
 
           This page contains spoilers!  It's an explanation of how
           to reach the various endings in the game, for the benefit
-          of my long-suffering beta-testers.  Maybe for the benefit
-          of everyone.  We'll see.
+          of my poor beta-testers.  Maybe for the benefit of everyone.
+          We'll see.
 
           Obviously (?) there are a lot of &ldquo;endings&rdquo;
           with a **@@@ CONNECTION LOST @@@** message, but my (naive?)

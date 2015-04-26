@@ -5,6 +5,7 @@
   $ = require('jquery');
 
   $(function() {
+    $('.credits a').attr('target', '_blank');
     return $('a[href="#back"]').click(function() {
       window.history.back();
       return false;
@@ -17758,6 +17759,28 @@ p {
   margin: 0 auto;
   max-width: 40em;
 }
+.credits {
+  padding: 0.5em;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+}
+.credit {
+  display: table-row;
+}
+.what,
+.whos {
+  display: table-cell;
+  width: 50%;
+}
+.what {
+  text-align: right;
+  padding-right: 0.5em;
+}
+.whos {
+  padding-left: 0.5em;
+  vertical-align: bottom;
+}
 iframe {
   display: block;
   padding: 0.5em 0;
@@ -17771,6 +17794,11 @@ iframe {
   padding-left: 4em;
   text-indent: -2em;
   line-height: 1;
+}
+.credit-container {
+  margin: 0;
+  padding: 0.5em;
+  text-align: center;
 }
 .logo {
   font-size: 300%;
@@ -17853,31 +17881,28 @@ iframe {
 </div></div><div id="404-pane" style="display: none;" class="pane"><div class="menu"><p><a href="#back">back</a> /// <a href="#">home</a></p>
 </div><div class="current"><p><strong>@@@ PAGE NOT FOUND @@@</strong></p>
 </div></div><div id="game" style="display: none;"><div class="menu"><p><a href="#">quit</a></p>
-</div><div id="output"></div></div><div id="credits-pane" style="display: none;" class="pane"><div class="menu"><p><a href="#back">back</a> /// <a href="#">home</a></p>
-</div><div class="current"><p>Kat Davis sent you &quot;Save the World / Don&apos;t You Worry
-Child&quot; by Pentatonix</p>
-<iframe src="https://www.youtube.com/embed/7YAcMgoSpDE?rel=0&amp;showinfo=0&amp;cc_lang_pref=en&amp;cc_load_policy=1" allowfullscreen></iframe>
-
-<p>Which is an a capella mash-up of &quot;Save the World&quot; and &quot;Don&apos;t
-You Worry Child,&quot; both by Swedish House Mafia.</p>
-<p><a href="#back">back</a> /// <a href="#">home</a></p>
-</div></div><div id="walkthrough-pane" style="display: none;" class="pane"><div class="menu"><p><a href="#back">back</a> /// <a href="#">home</a></p>
+</div><div id="output"></div></div><div id="credits-pane" style="display: none;" class="pane"><div class="menu"><div class="credit-container"><p><a href="#back">back</a> /// <a href="#">home</a></p>
+</div></div><div class="current"><div class="credit-container"><div class="logo"><span class="light">@@@ </span><span class="dark">ansible</span><span class="light"> @@@</span></div></div><div class="credits"><div class="credit"><div class="what">written by</div><div class="whos"><div class="who">Jacques Frechet</div></div></div><div class="credit"><div class="what">with help from beta testers</div><div class="whos"><div class="who">Your Name Here</div><div class="who">Your Name Here and</div><div class="who">Your Name Here</div></div></div><div class="credit"><div class="what">for</div><div class="whos"><div class="who"><a href="http://www.nigeljayne.ca/shufflecomp2015.html">ShuffleComp: Disc 2</a></div></div></div><div class="credit"><div class="what">using</div><div class="whos"><div class="who"><a href="http://coffeescript.org/">CoffeeScript</a></div><div class="who"><a href="https://nodejs.org/">Node.js</a></div><div class="who"><a href="http://browserify.org/">Browserify</a></div><div class="who"><a href="http://jade-lang.com/">Jade</a></div><div class="who"><a href="https://learnboost.github.io/stylus/">Stylus</a> and</div><div class="who"><a href="https://jquery.com/">jQuery</a></div></div></div><div class="credit"><div class="what">and the font</div><div class="whos"><div class="who"><a href="http://www.google.com/fonts/specimen/Exo+2">Exo 2</a></div></div></div><div class="credit"><div class="what">by</div><div class="whos"><div class="who"><a href="http://ndiscovered.com/">Natanael Gama</a></div></div></div><div class="credit"><div class="what">inspired by the <a href="https://www.youtube.com/watch?v=7YAcMgoSpDE">song</a> suggested by</div><div class="whos"><div class="who">Kat Davis</div></div></div><div class="credit"><div class="what">and created and performed by</div><div class="whos"><div class="who"><a href="http://ptxofficial.com/">Pentatonix</a></div></div></div><div class="credit"><div class="what">which is a cover/mash-up of the songs</div><div class="whos"><div class="who"><a href="https://www.youtube.com/watch?v=BXpdmKELE1k">Save the World</a> and</div><div class="who"> <a href="https://www.youtube.com/watch?v=1y6smkh6c-0">Don&apos;t You Worry Child</a></div></div></div><div class="credit"><div class="what">originally written and performed by</div><div class="whos"><div class="who"><a href="http://en.wikipedia.org/wiki/Swedish_House_Mafia">Swedish House Mafia</a></div></div></div><div class="credit"><div class="what">some of whose lyrics brought to mind</div><div class="whos"><div class="who"><a href="http://www.bookiejar.com/Content/Books/7ccbe2a1-12a9-41fa-a3ff-0f8ebaf40ef6/2339_r1/37381/www.gutenberg.org@files@37381@37381-h@37381-h-4.htm.html#pgepubid00026">The King of the Golden Mountain</a></div></div></div><div class="credit"><div class="what">as collected and published by</div><div class="whos"><div class="who"><a href="http://en.wikipedia.org/wiki/Grimms%27_Fairy_Tales">The Brothers Grimm</a></div></div></div><div class="credit"><div class="what">the term <a href="http://en.wikipedia.org/wiki/Ansible">&#x201C;ansible&#x201D;</a> was coined by</div><div class="whos"><div class="who"><a href="http://www.ursulakleguin.com/">Ursula K. Le Guin</a></div></div></div></div><iframe src="https://www.youtube.com/embed/7YAcMgoSpDE?rel=0" allowfullscreen></iframe><div class="credit-container"><p><a href="#back">back</a> /// <a href="#">home</a></p>
+</div></div></div><div id="walkthrough-pane" style="display: none;" class="pane"><div class="menu"><p><a href="#back">back</a> /// <a href="#">home</a></p>
 </div><div class="current"><p>Oh, uh, first off, in case I don&apos;t get to this elsewhere:
 If you&apos;re not playing the most recent version of the game,
 hosted at <a href="http://toastball.net/games/ansible/">http://toastball.net/games/ansible/</a>, you might
 want to head over there now.</p>
 <p>Also, if you need to get in touch with me, you can do so
-at <a href="mailto:zaphod@toastball.net">zaphod@toastball.net</a>.  Two things which are often
+at <a href="mailto:zaphod@toastball.net">zaphod@toastball.net</a>.  Three things which are often
 extremely helpful to include in bug reports or other
 comments are <strong>links</strong> to whichever bit of the game you
-want to refer to (the full URL works great, or you can
-cut off everything before the # if you prefer), and the
-<strong>version number</strong>, which can be found on the <a href="#">front
-page</a>.</p>
+want to refer to (full URL is fine, or you can cut off
+everything before the # if you prefer); the <strong>version
+number</strong>, which can be found on the <a href="#">front page</a>; and
+how you want <strong>your name</strong> to appear on the <a href="#/credits">credits</a>
+page.</p>
+<p>My name is Jacques Frechet, by the way.  Hi!  I&apos;m not
+using a pseudonym.</p>
 <p>This page contains spoilers!  It&apos;s an explanation of how
 to reach the various endings in the game, for the benefit
-of my long-suffering beta-testers.  Maybe for the benefit
-of everyone.  We&apos;ll see.</p>
+of my poor beta-testers.  Maybe for the benefit of everyone.
+We&apos;ll see.</p>
 <p>Obviously (?) there are a lot of &#x201C;endings&#x201D;
 with a <strong>@@@ CONNECTION LOST @@@</strong> message, but my (naive?)
 hope is that the player will figure out that all of the
