@@ -806,7 +806,7 @@ An echo?
 
 Nothing.  Bah!
 
-@{lose()}
+#{@lose()}
 
 # no x
 
@@ -1144,19 +1144,19 @@ the [[mantle->go mantle]]?  Maybe [[Nara->go Nara]]?
 
 She's close, I -- whoop --
 
-#{lose()}
+#{@lose()}
 
 # go boots
 
 I think I can, got em.  Ack, can I --
 
-#{lose()}
+#{@lose()}
 
 # go Nara
 
 She's going for the sword, I --
 
-#{lose()}
+#{@lose()}
 
 # go mantle
 
@@ -1174,7 +1174,7 @@ Gotta get behind --
 
 "Mine alone remain!"
 
-#{lose()}
+#{@lose()}
 
 # Nara
 
@@ -1202,7 +1202,7 @@ do the coin thing?  Maybe just twice, once to --"
 
 Whoops --
 
-@{lose()}
+#{@lose()}
 
 # Neither
 
