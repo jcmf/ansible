@@ -6,6 +6,8 @@ html(lang='en')
       :coffeescript
         $ = require 'jquery'
         $ ->
+          if window.location.href != "http://toastball.net/games/ansible/"
+            $('.upgrade').show()
           $('.credits a').attr 'target', '_blank'
           $('a[href="#back"]').click ->
             window.history.back()
@@ -131,7 +133,7 @@ html(lang='en')
             span.light= ' @@@'
       .current
         :markdown
-          version #{package.version}
+          version #{package.version}<span class="upgrade" style="display: none;"> /// [check for update](http://toastball.net/games/ansible/)</span>
 
           [start](#!) /// [credits](#/credits)
           /// [walkthrough](#/walkthrough)
