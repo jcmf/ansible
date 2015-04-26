@@ -701,72 +701,39 @@ Huh.  [[Yes->yes uda]], [[no->no uda]]?
 
 Okay.  Be cool.
 
-#{@pause 4}
+#{@pause 94}
 
-Hello!  We met!  Not you, I s'pose.  Another of you.  Please help!
-I'm too...
+Oh, it makes music!
 
-"There we go!  Now, ah --"
+Not music.
 
-No time!  [[Act?]]  [[Speak?]]  [[Wait?]]
+Like when we were little.
 
-# Act?
+"Ah, undoubtedly --"
 
-[[Boots?]]  [[Sword?]]  [[Cloak?]]
+There, there.  It'll be okay.
 
-# Boots?
+Be okay.
 
-"Uda!  What --"
+Okay.
 
-There.  [[Burn them?]]  [[Run?]]
+Okay!
 
-# Burn them?
+"-- so light --"
 
-"-- do you --"
+Too much, too much, too much, too much, [[too much]]
 
-Missed...?  [[Fetch?]]  [[Away?]]
+# too much
 
-# Fetch?
+"...inscription?"
 
-" -- think, ah!"
+Don't want it!  No, no, no, no, no, "no, [[no->nono]]"
 
-No no
+# nono
 
-#{@lose()}
-
-# Away?
-
-" -- think you're, ah!"
-
-No
+"...mine alone remain?"
 
 #{@lose()}
-
-# Run?
-
-" -- do you think you're, ah!"
-
-No, no
-
-#{@lose()}
-
-# Sword?
-
-"Uda!  What, ah, no --"
-
-#{@lose()}
-
-# Cloak?
-
-"Uda!  What, ah... Valeria, you were saying?"
-
-[[Whaaat.]]
-
-# Speak?
-
-"Stop!  You can't."
-
-[[(where am I going with this?)]]
 
 # no uda
 
@@ -775,6 +742,30 @@ No, no
 "Demonstrate the operation of these artifacts, you mean?"
 
 Crap.  [[Yes->yes demo]]?  [[No->no demo]]?
+
+# yes demo
+
+"Uh, yes, sure!  Could you?"
+
+"No!"
+
+"Uda, calm yourself.  Yes of -- Uda!"
+
+Oh my god.  What do I do?
+
+"All heads off...."
+
+What --
+
+"Mine alone remain!"
+
+#{@lose()}
+
+# no demo
+
+"Uh, no, I... no."
+
+[[(where was I going with this?)]]
 
 # mantle
 
@@ -791,7 +782,59 @@ Crap!  Maybe I --
 
 "Ah!  May I examine it?"
 
-Hey, what do I say?  [[Yes->yes x (mantle)]], or [[no->no x (mantle)]]?
+Hey, what do I say?  [[Yes->yes x]], or [[no->no x]]?
+
+# yes x
+
+"Okay, but you have to watch out -- here, I'll show you --"
+
+#{@pause 17}
+
+Ah, indeed, this sensation... remarkable.  Imbued with something,
+clearly.
+
+"So do I just, uh --"
+
+"Ah, yes, don it as you would any cloak.  You needn't concern
+yourself about...."
+
+Hmm, where was I?
+
+Can I make use of this?
+
+"Ring?  Can you hear me?"
+
+No response.
+
+"Ring!  I [[command]] you!"
+
+# command
+
+An echo?
+
+"Ring, what is the solution to our disagreement?"
+
+Nothing.  Bah!
+
+@{lose()}
+
+# no x
+
+"Uh, actually, I'd rather hold onto it if you don't mind.  It's, uh...."
+
+"An heirloom?"
+
+"Uh, sure."
+
+"Show me."
+
+"No, I --"
+
+"Show me!"
+
+"Hey!"
+
+#{@lose()}
 
 # sword
 
@@ -1064,30 +1107,27 @@ Say #{@end 'yes'}.
 
 I'll just get going then.
 
-#{pause 14892}
+#{pause 14802}
 
 I think I'm the only one left.
 
+You and me.  Heh heh.
+
 We have to fix this.
 
-Maybe the Water of Life?
+Maybe the Water of Life?  Is that even a real thing?
 
-Is that even a real thing?
+I'm not... don't answer that.
 
-Don't answer that.
-
-Is there hope?
+Just... is there hope?
 
 Say #{@end 'yes'}.
 
 # fast no
 
-I could... the boots, the mantle.  They're still here.  [[Yes->yes
-loot]]] or [[no->no loot]]?
+I could... of course, the boots, the mantle.
 
-# yes loot
-
-Okay.  Ugh, this is freaking me out.
+Okay.  Ugh, this... they're... freaking me out.
 
 Here we go.
 
@@ -1112,13 +1152,19 @@ the [[mantle->go mantle]]?  Maybe [[Nara->go Nara]]?
 
 # go sword
 
-She's close, I -- whoop
+She's close, I -- whoop --
 
 #{lose()}
 
 # go boots
 
-I think I can, got em.  Ack, can I
+I think I can, got em.  Ack, can I --
+
+#{lose()}
+
+# go Nara
+
+She's going for the sword, I --
 
 #{lose()}
 
@@ -1126,12 +1172,16 @@ I think I can, got em.  Ack, can I
 
 Go, go, got it!  Do they really... huh.
 
-[[What next?]]
+I guess it works.
 
-# go Nara
+Crap!  Sword!
 
-She's going for the sword, I
+Yikes, that was --
+
+"All heads off --"
+
+Gotta get behind --
+
+"Mine alone remain!"
 
 #{lose()}
-
-
