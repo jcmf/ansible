@@ -4,6 +4,7 @@ html(lang='en')
     title ansible
     script
       :coffeescript
+        {version} = require './package'
         $ = require 'jquery'
         $ ->
           if window.location.href != "http://toastball.net/games/ansible/"
@@ -15,13 +16,16 @@ html(lang='en')
           seq = 0
           hashchange = ->
             $.ajax {
-              url: 'http://toastball.net/games/ansible/xscript'
+              url: 'http://toastball.net/games/ansible/version'
               crossDomain: true
               dataType: 'jsonp'
-              success: ->
+              success: (response) ->
+                if not response?.version then return
+                $('.upgrade').toggle response.version is version
               data:
-                u: window.location.href
                 s: seq++
+                u: window.location.href
+                v: version
             }
             true
           hashchange()
