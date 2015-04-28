@@ -177,7 +177,7 @@ along the way?
 
 Okay, fine.  I mean I totally trust you and everything, it's just,
 I hope you had a good reason... you're sure you're not messing with
-me?  [[Yes->messing]] or [[no->not messing]].
+me?  [[Yes messing->messing]] or [[no messing->not messing]]?
 
 # not messing
 
