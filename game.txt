@@ -209,6 +209,10 @@ check back later.
 
 Right... no, left.  Yes!  Left.  Good.  I'll check back in a bit.
 
+#{@pause 793}
+
+Big commotion behind -- uh -- is that a sword?  Crap, it's coming --
+
 #{@lose()}
 
 # s2
@@ -222,7 +226,11 @@ South.  Which would be... just, yeah, okay.  I'll talk to you later.
 Like, anywhere in particular?  Or just... this thing where you're
 in my head is driving me crazy, my teeth are like... how about if
 I check back in half an hour?  Or if anything interesting happens.
-Great, catch you later.  Oh my god.  They're, like, singing.
+Great, catch you later.  Oh my goodness.  They're, like, singing.
+
+#{@pause 724}
+
+Hey, you said to, uh, there's something coming --
 
 #{@lose()}
 
@@ -275,6 +283,11 @@ Okay.  I'm at the crossroads!  I could turn [[left]], I could go
 #left
 
 Left it is!  Wow.  Okay, talk to you soon.
+
+#{@pause 805}
+
+Something's -- the caravan I passed -- just -- something's -- this
+is bad, crap, it's flying straight --
 
 #{@lose()}
 
@@ -337,7 +350,7 @@ A presence!  Not alone.  Not alone.  Hope!
 
 Purely sensory, perhaps?  Illusion?
 
-"Something terrible has occurred!"
+"Something terrible has occurred!"  My fault.  So stupid!
 
 No change.
 
@@ -502,19 +515,19 @@ Whoops!  Still getting the hang of this.
 
 That was exciting, right?  What the hell.  Right?
 
-Hold
+Hold --
 
 #{@lose()}
 
 # Do it?
 
 "Uhhhhhh... suuuuuure... just, uh, yeah, here we go, right, whoops,
-ha, okay, yes, okay, here we are, here we go."
+ha, okay, yes, okay, here we are, here we go."  Phew.
 
 "Please, make yourself comfortable!  There is no need to stand!  I
 can offer you this, ah, this fine flat rock!"
 
-"Oh!  I wouldn't want to, uh...."
+Uhhh.  "Oh!  I wouldn't want to, uh...."
 
 "Sit."
 
@@ -535,7 +548,7 @@ quite, ah, stupid, we are unable to divide it amicably."
 
 "That is correct.  Now, your first thought will be to --"
 
-"Is that one of the things?"
+Grm.  "Is that one of the things?"
 
 "Ah, yes, the sword.  Perhaps, however, it would be better to --"
 
@@ -550,12 +563,14 @@ Huh!
 
 Ooh!
 
+"As you can see, these --"
+
 "Lies!  Don't listen!  Dangerous!  Cursed!"
 
-Oho?
+Huh!  I was wondering when she was --
 
-"My sister's fears are groundless.  It is true, however, that these
-items have useful magical properties."
+"Uda's fears are groundless.  It is true, however, that these items
+have useful magical properties."
 
 Hey, don't I have... ha ha, almost forgot... so should I, uh,
 [[listen]] or... no, just --
@@ -566,9 +581,9 @@ Hey, don't I have... ha ha, almost forgot... so should I, uh,
 
 "Horrible things!"
 
-"Shush!  You see how uncivilized we are.  As I was explaining, the
-mantle confers perfect invisibility, while the boots will instantaneously
-transport the wearer to an arbitrary location."
+"Uda, shush!  You see how uncivilized we are.  As I was explaining,
+the mantle confers perfect invisibility, while the boots will
+instantaneously transport the wearer to an arbitrary location."
 
 Sounds pretty fancy!  "And the sword?"
 
@@ -789,8 +804,6 @@ clearly.
 yourself about...."
 
 Hmm, where was I?
-
-Can I make use of this?
 
 "Ring?  Can you hear me?"
 
