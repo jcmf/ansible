@@ -211,7 +211,7 @@ Right... no, left.  Yes!  Left.  Good.  I'll check back in a bit.
 
 #{@pause 793}
 
-Big commotion behind -- uh -- is that a sword?  Crap, it's coming --
+Big commotion -- uh -- a sword?  Crap, it's coming --
 
 #{@lose()}
 
