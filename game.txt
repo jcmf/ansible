@@ -245,6 +245,12 @@ Sounds good!  I'll check back in a bit.
 So... hold on... that way.  Got it.  I'll talk to you in a bit.
 Wow, this thing is, I don't know, powerful.  Feels weird.
 
+#{@pause 801}
+
+Something's just, like, mowing down -- it's coming -- uh, [[crap]]!
+
+#crap
+
 #{@lose()}
 
 #west
