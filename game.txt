@@ -137,12 +137,13 @@ Sorry that took so long!  I got hungry.  Are you still there?  Say
 
 #there
 
-Okay!  Time to do your job.  What do we go for now?  [[Water->water]],
-or [[ring]]?
+Okay!  Time to do your job.  What do we go for now?  The [[water of life]],
+or the [[ring of wishing]]?
 
-#water
+# water of life
 
-Right to the point!  I like it.  So, okay, I kinda have a plan already...
+So it's real!  Ha!  I knew it, I knew it!  So, okay, I kinda have
+a plan already, I mean at least as far as the mountain, probably...
 should I just [[get started]] with that?  Or is it [[no good]]?
 
 # get started
@@ -260,7 +261,7 @@ straight.  No, I got it, this way.  Yes.  Good.  Talk to you in a bit.
 
 #{@lose()}
 
-#ring
+# ring of wishing
 
 Yeah, right on, collect the whole set.  You're not going to get
 jealous, are you?  Sorry, maybe that's... anyway I'm getting ahead
@@ -272,9 +273,9 @@ castle, or [[no->no castle]] castle?
 # no castle
 
 Not the castle.  Is it... agh... it doesn't even matter where it
-is, I just need to, like, make progress somehow?  Look, we're in
-the middle of nowhere here, right?  I could head down the [[road]],
-I could... uh... [[not]] head down the road?
+is, I just need to, like, make progress somehow?  Look, this valley
+is kind of a dead end, right?  Nothing but trees.  So I could head
+back down the [[road]], I could... uh... [[not]] head down the road?
 
 # road
 
@@ -457,7 +458,7 @@ Actually, that's not --
 
 # what
 
-Crap!
+Fuck!
 
 "Valeria.  I'm Valeria!  Pleased to meet you?"
 
