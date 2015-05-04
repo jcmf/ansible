@@ -1,6 +1,6 @@
 #start
 
-#{@smartPunct = true; (code = @code = (s) -> imbroglio.elem 'span', {class: 'code'}, "@@@ #{s} @@@"); (@lose = -> code 'CONNECTION LOST'); (@pause = (t) -> code "CONNECTION SUSPENDED/RESUMED; ELAPSED TIME #{t}s"); (@end = (text) -> imbroglio.elem 'a', {class: 'game-link', href: '#/credits'}, text); code 'CONNECTION ESTABLISHED'}
+#{@smartPunct = true; (code = @code = (s) -> imbroglio.elem 'span', {class: 'code'}, "@@@ #{s} @@@"); (@lose = -> code 'CONNECTION LOST'); (@pause = (t) -> code "CONNECTION SUSPENDED/RESUMED; ELAPSED TIME #{t}s"); (@end = (text, n) -> imbroglio.elem 'a', {class: 'game-link', href: "#/credits#{n}"}, text); code 'CONNECTION ESTABLISHED'}
 
 There.  There it is.  Phew.
 
@@ -1087,7 +1087,7 @@ Oh thank goodness, I was hoping you'd say that.
 
 Wow.  Is this gonna be awesome or what?
 
-Say #{@end 'yes'}.
+Say #{@end 'yes', 2}.
 
 # no keep
 
@@ -1108,7 +1108,7 @@ I guess that's that.
 
 Hey, uh, you're going to help me get off this mountain, right?
 
-Say #{@end 'yes'}.
+Say #{@end 'yes', 3}.
 
 # fast yes
 
@@ -1128,7 +1128,7 @@ I'm not... don't answer that.
 
 Just... is there hope?
 
-Say #{@end 'yes'}.
+Say #{@end 'yes', 1}.
 
 # fast no
 

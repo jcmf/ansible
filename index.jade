@@ -166,111 +166,124 @@ html(lang='en')
         :markdown
           [quit](#)
       #output
-    #credits-pane.pane(style="display: none;")
-      .menu
-        .credit-container
-          :markdown
-            [back](#back) /// [home](#)
-      .current
-        .credit-container
-          .logo
-            span.light= '@@@ '
-            span.dark ansible
-            span.light= ' @@@'
-        .credits
-          .credit
-            .what written by
-            .whos
-              .who Jacques Frechet
-          .credit
-            .what with help from beta testers
-            .whos
-              .who
-                a(href='http://ifdb.tads.org/showuser?id=xndjc4p6o60zunaa') Joshua Houk
-              .who
-                a(href='https://twitter.com/calariene') J. Marie
-              .who Anonymous and
-              .who
-                ='the '
-                a(href='http://www.meetup.com/sf-bay-area-interactive-fiction/') SF Bay Area Interactive Fiction Group
-          .credit
-            .what for
-            .whos
-              .who
-                a(href='http://ifwiki.org/index.php/ShuffleComp:_Disc_2') ShuffleComp: Disc 2
-          .credit
-            .what using
-            .whos
-              .who
-                a(href='http://coffeescript.org/') CoffeeScript
-              .who
-                a(href='https://nodejs.org/') Node.js
-              .who
-                a(href='http://browserify.org/') Browserify
-              .who
-                a(href='http://jade-lang.com/') Jade
-              .who
-                a(href='https://learnboost.github.io/stylus/') Stylus
-                =' and'
-              .who
-                a(href='https://jquery.com/') jQuery
-          .credit
-            .what and the font
-            .whos
-              .who
-                a(href='http://www.google.com/fonts/specimen/Exo+2') Exo 2
-          .credit
-            .what by
-            .whos
-              .who
-                a(href='http://ndiscovered.com/') Natanael Gama
-          .credit
-            .what
-              ='inspired by the '
-              a(href='https://www.youtube.com/watch?v=7YAcMgoSpDE') song
-              =' suggested by'
-            .whos
-              .who Kat Davis
-          .credit
-            .what and created and performed by
-            .whos
-              .who
-                a(href='http://ptxofficial.com/') Pentatonix
-          .credit
-            .what which is a cover/mash-up of the songs
-            .whos
-              .who
-                a(href='https://www.youtube.com/watch?v=BXpdmKELE1k') Save the World
-                =' and'
-              .who 
-                a(href='https://www.youtube.com/watch?v=1y6smkh6c-0') Don't You Worry Child
-          .credit
-            .what originally written and performed by
-            .whos
-              .who
-                a(href='http://en.wikipedia.org/wiki/Swedish_House_Mafia') Swedish House Mafia
-          .credit
-            .what some of whose lyrics brought to mind
-            .whos
-              .who
-                a(href='http://www.bookiejar.com/Content/Books/7ccbe2a1-12a9-41fa-a3ff-0f8ebaf40ef6/2339_r1/37381/www.gutenberg.org@files@37381@37381-h@37381-h-4.htm.html#pgepubid00026') The King of the Golden Mountain
-          .credit
-            .what as collected and published by
-            .whos
-              .who
-                a(href='http://en.wikipedia.org/wiki/Grimms%27_Fairy_Tales') The Brothers Grimm
-          .credit
-            .what
-              ='the term '
-              a(href='http://en.wikipedia.org/wiki/Ansible') &ldquo;ansible&rdquo;
-              =' was coined by'
-            .whos
-              .who
-                a(href='http://www.ursulakleguin.com/') Ursula K. Le Guin
-        iframe(src="https://www.youtube.com/embed/7YAcMgoSpDE?rel=0" allowfullscreen)
-        .credit-container
-          :markdown
-            [back](#back) /// [home](#)
+    mixin credits(n)
+      .pane(id="credits"+n+"-pane" style="display: none;")
+        .menu
+          .credit-container
+            if block
+              block
+            :markdown
+              [back](#back) /// [home](#)
+        .current
+          .credit-container
+            .logo
+              span.light= '@@@ '
+              span.dark ansible
+              span.light= ' @@@'
+          .credits
+            .credit
+              .what written by
+              .whos
+                .who Jacques Frechet
+            .credit
+              .what with help from beta testers
+              .whos
+                .who
+                  a(href='http://ifdb.tads.org/showuser?id=xndjc4p6o60zunaa') Joshua Houk
+                .who
+                  a(href='https://twitter.com/calariene') J. Marie
+                .who Anonymous and
+                .who
+                  ='the '
+                  a(href='http://www.meetup.com/sf-bay-area-interactive-fiction/') SF Bay Area Interactive Fiction Group
+            .credit
+              .what for
+              .whos
+                .who
+                  a(href='http://ifwiki.org/index.php/ShuffleComp:_Disc_2') ShuffleComp: Disc 2
+            .credit
+              .what using
+              .whos
+                .who
+                  a(href='http://coffeescript.org/') CoffeeScript
+                .who
+                  a(href='https://nodejs.org/') Node.js
+                .who
+                  a(href='http://browserify.org/') Browserify
+                .who
+                  a(href='http://jade-lang.com/') Jade
+                .who
+                  a(href='https://learnboost.github.io/stylus/') Stylus
+                  =' and'
+                .who
+                  a(href='https://jquery.com/') jQuery
+            .credit
+              .what and the font
+              .whos
+                .who
+                  a(href='http://www.google.com/fonts/specimen/Exo+2') Exo 2
+            .credit
+              .what by
+              .whos
+                .who
+                  a(href='http://ndiscovered.com/') Natanael Gama
+            .credit
+              .what
+                ='inspired by the '
+                a(href='https://www.youtube.com/watch?v=7YAcMgoSpDE') song
+                =' suggested by'
+              .whos
+                .who Kat Davis
+            .credit
+              .what and created and performed by
+              .whos
+                .who
+                  a(href='http://ptxofficial.com/') Pentatonix
+            .credit
+              .what which is a cover/mash-up of the songs
+              .whos
+                .who
+                  a(href='https://www.youtube.com/watch?v=BXpdmKELE1k') Save the World
+                  =' and'
+                .who
+                  a(href='https://www.youtube.com/watch?v=1y6smkh6c-0') Don't You Worry Child
+            .credit
+              .what originally written and performed by
+              .whos
+                .who
+                  a(href='http://en.wikipedia.org/wiki/Swedish_House_Mafia') Swedish House Mafia
+            .credit
+              .what some of whose lyrics brought to mind
+              .whos
+                .who
+                  a(href='http://www.bookiejar.com/Content/Books/7ccbe2a1-12a9-41fa-a3ff-0f8ebaf40ef6/2339_r1/37381/www.gutenberg.org@files@37381@37381-h@37381-h-4.htm.html#pgepubid00026') The King of the Golden Mountain
+            .credit
+              .what as collected and published by
+              .whos
+                .who
+                  a(href='http://en.wikipedia.org/wiki/Grimms%27_Fairy_Tales') The Brothers Grimm
+            .credit
+              .what
+                ='the term '
+                a(href='http://en.wikipedia.org/wiki/Ansible') &ldquo;ansible&rdquo;
+                =' was coined by'
+              .whos
+                .who
+                  a(href='http://www.ursulakleguin.com/') Ursula K. Le Guin
+          iframe(src="https://www.youtube.com/embed/7YAcMgoSpDE?rel=0" allowfullscreen)
+          .credit-container
+            :markdown
+              [back](#back) /// [home](#)
+    +credits('')
+    +credits('1')
+      :markdown
+        You have reached the first of three possible endings.
+    +credits('2')
+      :markdown
+        You have reached the second of three possible endings.
+    +credits('3')
+      :markdown
+        Congratulations on saving the world!
     #notes-pane.pane(style="display: none;")
       .menu
         :markdown
