@@ -538,7 +538,9 @@ Uhhh.  "Oh!  I wouldn't want to, uh...."
 
 "Sit."
 
-Yikes.
+[[Yikes]].
+
+# Yikes
 
 "You are undoubtedly eager for me to present my idea.  I shall now elucidate!"
 
@@ -546,10 +548,6 @@ Yikes.
 
 "My sister and I are the recent recipients of an inheritance.  Being
 quite, ah, stupid, we are unable to divide it amicably."
-
-"So... someone died?"
-
-"No one of consequence.  A distant relative."
 
 "And you want me to decide who gets what?"
 
@@ -568,7 +566,9 @@ Huh!
 
 "And these stylish boots."
 
-Ooh!
+[[Ooh!]]
+
+# Ooh!
 
 "As you can see, these --"
 
@@ -641,14 +641,15 @@ Agh, what now?  [[Yes->yes examine]], or [[no->no examine]]?
 
 # yes examine
 
-"Um... sure?  I, uh... it's a magic ring."
+"Um... sure?  I, uh... it's a ring of wisdom."
 
-"Really!  How very appropriate.  What properties does it have?"
+"A magical artifact?  How very appropriate.  What properties does
+it have?"
 
 "It, uh... there's, like, an angel, and sometimes you can ask it a
 question... I mean it takes some practice, you can't just... I mean
-you can, you can try it, but... I just, I spent a lot of time finding
-a good one, so don't mess --"
+you can, you can try it, but... I just, I spent a lot of time tuning,
+so don't mess --"
 
 #{@pause 20}
 
@@ -715,11 +716,7 @@ Huh.  [[Yes->yes uda]], [[no->no uda]]?
 
 # yes uda
 
-"Okay, just, uh... be careful of this bit here --"
-
-"I know."
-
-"You do?  You do.  Okay."
+"Okay, just, uh... be careful of this bit here."
 
 Okay.  Be cool.
 
@@ -798,7 +795,7 @@ Hey, what do I say?  [[Yes->yes x]], or [[no->no x]]?
 
 # yes x
 
-"Okay, but you have to watch out -- here, I'll show you --"
+"Okay, but you have to watch out -- it has -- here, I'll show you --"
 
 #{@pause 17}
 
@@ -873,7 +870,7 @@ the inscription mean?"
 
 "Stop!"
 
-"All heads off, mine alone remain.  Crap, it... it just...."
+"All heads off, mine alone remain?  Crap, it... it just...."
 
 Oh my god.
 
