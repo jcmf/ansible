@@ -412,31 +412,29 @@ Maybe I could still... I could [[pretend]] I was just... or just
 
 "Who's there?"
 
-"We know you're there!"
+Lay low, lay low....
 
-"You cannot deceive us!"
-
-"Yeah, we're not gonna take it anymore!"
-
-"Oh, be quiet."
-
-"You be quiet!"
+"I think --"
 
 "This is serious!  Pipe down for once!"
 
-"Make me!"
+[[Good]], that's it....
 
-"Don't tempt me."
+# Good
 
-"You wouldn't."
+"No!"
 
-"Two birds."
+"Uda, I shall no longer tolerate this insubordinate --"
 
-"Drop it!"
+"No!  Stop!"
+
+Hrm?
 
 "All heads off..."
 
-"Don't do this!"
+"Stop!"
+
+What is she --
 
 "...mine alone remain!"
 
@@ -475,11 +473,7 @@ Ohmygod, did I just, oh my god, what the crap am I, they're gonna --
 "How very perspicacious of you.  Truly -- ah, in fact, my sluggish giant
 brain is beginning to develop a thought."
 
-"Uh?"
-
-"Yes!  An idea."
-
-What the hell?
+"Uh?"  What the hell?
 
 "Why don't you join us by the fire, that we may converse more freely?"
 
@@ -487,12 +481,10 @@ Um.  Um!  [[Do it?]]  [[No?]]
 
 # No?
 
-Seriously, right?
+Seriously, right?  "Yeah, uh... thank you for the kind offer but I
+really can't stay, I have to, um.  I should be going."
 
-"Yeah, uh... thank you for the kind offer but I really can't stay,
-I have to, um.  I should be going."
-
-"But you must help us!  We are so stupid!"
+"But, ah, you must help us!  We are so stupid!"
 
 "Stop calling me stupid!"
 
@@ -570,6 +562,8 @@ Huh!
 
 # Ooh!
 
+Whoops, sorry, got carried away there.
+
 "As you can see, these --"
 
 "Lies!  Don't listen!  Dangerous!  Cursed!"
@@ -611,9 +605,7 @@ had envisioned when we brought you here!"
 "Ah, see how hopeless it would be to expect us to resolve this difficulty
 without your assistance!  Truly, you are our only hope!"
 
-Well.
-
-"Can I try them?"
+Well.  "Can I try them?"
 
 "No!"
 
@@ -679,7 +671,9 @@ Horrifying.
 
 Look away.  No, don't.
 
-Incredible.
+[[Incredible]].
+
+# Incredible
 
 Gone!
 
@@ -698,7 +692,7 @@ but not physically, ah --"
 "We should totally trade!  I mean, I would, uh...."
 
 "We'll have plenty of time to discuss that, I'm certain, but for
-now if I might assist you with, ah, there, if you would --"
+now if I might assist you with, ah, here, your --"
 
 #{@lose()}
 
@@ -723,8 +717,6 @@ Okay.  Be cool.
 #{@pause 94}
 
 Oh, it makes music!
-
-Not music.
 
 Like when we were little.
 
@@ -766,7 +758,11 @@ Don't want it!  No, no, no, no, no, "no, [[no->nono]]"
 
 "Uda, calm yourself.  Yes of -- Uda!"
 
-Oh my god.  What do I do?
+Oh my god, she's -- what do I [[do]]?
+
+# do
+
+Crap!  Uh --
 
 "All heads off...."
 
@@ -785,13 +781,12 @@ would never dream of doing otherwise, however it might be best if
 you were to leave behind some sort of guarantee, some... do you
 have anything of value?"
 
-"Well, um... there's this ring...."
-
-Crap!  Maybe I --
+"Well, um... there's this ring...."  Hrm, maybe I shouldn't have
+--
 
 "Ah!  May I examine it?"
 
-Hey, what do I say?  [[Yes->yes x]], or [[no->no x]]?
+Crap!  What do I say?  [[Yes->yes x]], or [[no->no x]]?
 
 # yes x
 
@@ -831,15 +826,15 @@ Nothing.  Bah!
 
 "An heirloom?"
 
-"Uh, sure."
+"Uh, sure."  Why is --
 
 "Show me."
 
-"No, I --"
+Yow.  "No, I --"
 
 "Show me!"
 
-"Hey!"
+"Hey!"  Whoops --
 
 #{@lose()}
 
@@ -850,7 +845,7 @@ Nothing.  Bah!
 "Certainly!  Only you must be careful with it.  I would advise against
 touching the blade at all, for example."
 
-"Okay."
+"Okay."  Wow, it's really --
 
 "I don't like this!"
 
@@ -858,19 +853,27 @@ touching the blade at all, for example."
 intends only to assist us!  We have nothing to fear from her.  Go on,
 Valeria."
 
-"Oh, wow!  It's so... light?  Not light, but...."
+Whoa, check this [[out]]!
+
+#out
+
+"It's so... light?  Not light, but...."
 
 "Perhaps you would like to test it on one of those boulders?  Carefully,
 of course."
 
-"Seriously?  I can just... oh my god.  This is amazing.  Hey, what's
-the inscription mean?"
+"Seriously?  I can just... oh my god.  This is amazing."  This is
+amazing.  Is there a....  "Hey, what's the inscription mean?"
 
 "I, ah, yes, inscription, of course --"
 
 "Stop!"
 
-"All heads off, mine alone remain?  Crap, it... it just...."
+I think I....  "All heads off, mine alone remain?"
+
+Crap!
+
+It... it just....
 
 Oh my god.
 
@@ -963,7 +966,11 @@ were saying?"
 
 "This is, ah --"
 
-Shush!  Yes?  Good.
+[[Nara->shush]]!  Oops....
+
+# shush
+
+Nara, are you gonna... yeah, that's right.  Okay.  "Go on."
 
 "She came back.  It's still her, but she's different.  This was the boots,
 but it could have been any of them.  The mantle was even worse."
