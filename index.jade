@@ -172,8 +172,11 @@ html(lang='en')
           .credit-container
             if block
               block
-            :markdown
-              [back](#back) /// [home](#)
+              :markdown
+                [keep playing](#back) /// [quit](#)
+            else
+              :markdown
+                [home](#)
         .current
           .credit-container
             .logo
@@ -272,18 +275,24 @@ html(lang='en')
                   a(href='http://www.ursulakleguin.com/') Ursula K. Le Guin
           iframe(src="https://www.youtube.com/embed/7YAcMgoSpDE?rel=0" allowfullscreen)
           .credit-container
-            :markdown
-              [back](#back) /// [home](#)
+            if block
+              :markdown
+                [keep playing](#back) /// [quit](#)
+            else
+              :markdown
+                [home](#)
     +credits('')
     +credits('1')
       :markdown
-        You have reached the first of three possible endings.
+        You have reached one of three possible endings.
     +credits('2')
       :markdown
-        You have reached the second of three possible endings.
+        You have reached one of three possible endings.
     +credits('3')
       :markdown
-        Congratulations on saving the world!
+        **Congratulations &mdash; you have saved the world!**
+
+        This is one of three possible endings.
     #notes-pane.pane(style="display: none;")
       .menu
         :markdown
