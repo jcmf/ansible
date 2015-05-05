@@ -893,29 +893,32 @@ What do I do?  Get out of here fast, maybe?  [[Yes->fast yes]] or
 
 "No!  You can't, you can't let her..."
 
-"I believe what my sister is attempting to articulate is that, as,
-ah, brilliant though this plan may be in its simplicity, it nonetheless
-poses a significant risk of a decidedly unfair outcome, specifically,
-that the totality of the items in question might go to --"
+"I believe what my sister Uda is attempting to articulate is that,
+as, ah, brilliant though this plan may be in its simplicity, it
+nonetheless poses a significant risk of a decidedly unfair outcome,
+specifically, that the totality of the items in question might go
+to --"
 
 "Destroy them!"
 
 "-- to a single, ah, party.  However we could perhaps, ah..."
 
-"Wait.  Destroy them?"
+Wait.  "Destroy them?"
 
 "It's the only way.  She won't listen!"
 
 "I'm afraid my sister is very, ah, superstitious."
 
-Hey, question: Who do you think is right?  [[Nara]]?  [[Uda]]?  [[Neither]]?
+Hey, can't I just... who do you think is right?  The talky, uh,
+[[Nara]]?  [[Uda]]?  [[Neither]]?
 
 # Uda
 
 Oh good, I was worried you were maybe going to side with Nara and
-I was going to... well anyway.
+I was going to... although it seems a shame to....
 
-So.  Act now?  [[Yes->yes act]] or [[no->no act]]?
+Okay!  Destroy them.  Like... act now, maybe?  [[Yes->yes act]] or
+[[no->no act]]?
 
 # no act
 
@@ -965,11 +968,11 @@ were saying?"
 
 "This is, ah --"
 
-[[Nara->shush]]!  Oops....
+Oh my god Nara shut [[up]].
 
-# shush
+# up
 
-Nara, are you gonna... yeah, that's right.  Okay.  "Go on."
+That's right.  Yes.  We cool?  Good.  "Go on, Uda."
 
 "She came back.  It's still her, but she's different.  This was the boots,
 but it could have been any of them.  The mantle was even worse."
@@ -997,7 +1000,7 @@ one?"
 
 "Yes."
 
-"You saw us, before?"
+"You heard us, before?"
 
 "Yes."
 
@@ -1013,8 +1016,8 @@ one?"
 
 "I don't know.  The fire, maybe."
 
-"This?  No way.  Certainly not the sword, maybe not the rest either.  You
-want, hmm... have you ever seen a volcano up close?"
+Hah!  "This?  No way.  Certainly not the sword, maybe not the rest
+either.  You want, hmm... have you ever seen a volcano up close?"
 
 "No, but...."
 
@@ -1034,9 +1037,7 @@ Committed.
 
 "What, ah, no, stop this!"
 
-Mantle.  Good!  Now --
-
-Crap!  Sword!
+Mantle.  Good!  Now -- crap!  Sword!
 
 "Stay back!"
 
@@ -1081,8 +1082,7 @@ All right.
 Wow.  This is some amazing gear.
 
 Hey, those are words!  Blackletter.  All heads off, mine alone
-remain.  Something like that.  Huh!  You know, I feel like there
-have been times when I could have used something like that.
+remain?  Something like that?  Huh!  Creepy.
 
 So what do you think?  Should I just keep 'em?  [[Yes->yes keep]]
 or [[no->no keep]]?
@@ -1128,9 +1128,8 @@ You and me.  Heh heh.
 
 We have to fix this.
 
-Maybe the Water of Life?  Is that even a real thing?
-
-I'm not... don't answer that.
+Maybe the Water of Life?  Is that even a real thing?  I'm not even...
+don't answer that.
 
 Just... is there hope?
 
@@ -1201,10 +1200,8 @@ Gotta get behind --
 
 # Nara
 
-Really?  I guess... I guess even scary horrible people can be right
-about some things.
-
-"Look, Uda... is there any way --"
+Really?  I wouldn't have... but it's true, it would be a shame to
+just... hrm.  "Look, Uda... is there any way --"
 
 "No!"
 
@@ -1221,17 +1218,17 @@ do the coin thing?  Maybe just twice, once to --"
 
 "No no no --"
 
+Crap, what is she --
+
 "Uda!"
 
-Whoops --
+Crap -- can't let -- ugh --
 
 #{@lose()}
 
 # Neither
 
-Hmm, that's an idea.
-
-"Why don't you just give them to me, then?"
+Hmm, that's an idea.  "Why don't you just give them to me, then?"
 
 "Well, ah --"
 
@@ -1245,6 +1242,6 @@ Hmm, that's an idea.
 
 "Uda!"
 
-Crap --
+Crap, she -- ow -- that's, not good --
 
 #{@lose()}
