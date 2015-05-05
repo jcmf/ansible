@@ -1021,19 +1021,17 @@ either.  You want, hmm... have you ever seen a volcano up close?"
 
 "No, but...."
 
-"I have."
+"I have."  Look at me.
 
-Look at me.  Mmm-hmm.
+Mmm-hmm.
 
-You.  Her.
-
-Got it.
+You.  Her.  Yes.  Now.  Good.  Yes.
 
 Is this even going to work?  [[Yes]] or --
 
 # Yes
 
-Committed.
+Go!
 
 "What, ah, no, stop this!"
 
