@@ -475,7 +475,7 @@ brain is beginning to develop a thought."
 
 "Why don't you join us by the fire, that we may converse more freely?"
 
-Um.  Um!  [[Do it?]]  [[No?]]
+Um.  Um!  [[Do it]]?  [[No->No?]]?
 
 # No?
 
@@ -488,9 +488,9 @@ really can't stay, I have to, um.  I should be going."
 
 "Gnot gnow, shishter!"
 
-Yow.
+Yow.  "Okay well it was very nice meeting you, take care!"
 
-"Okay well it was very nice meeting you, take care!"
+"Wait!  Come back!"
 
 Oh my goodness.
 
@@ -498,7 +498,9 @@ Oh my goodness.
 
 Okay.
 
-Okay.
+Agh!  Gah!  Ow.  What even was that?  A root?
+
+I'm okay.
 
 Okay.
 
@@ -512,11 +514,11 @@ Whoops!  Still getting the hang of this.
 
 That was exciting, right?  What the hell.  Right?
 
-Just give me a minute here....
+Hmm, I thought I --
 
 #{@lose()}
 
-# Do it?
+# Do it
 
 "Uhhhhhh... suuuuuure...."  These shadows!  "Just, uh, yeah, here
 we go, right, whoops!"  Ow.  "Ha, okay, yes, okay," crap, "here we
@@ -540,11 +542,11 @@ Seriously?  "Okay."  Elucidate?
 "My sister and I are the recent recipients of an inheritance.  Being
 quite, ah, stupid, we are unable to divide it amicably."
 
-"And you want me to decide who gets what?"  Oooh, look at that thing.
+"And you want me to decide who gets what?"  Oooh, look at that.
 
 "That is correct.  Now, your first thought will be to --"
 
-Shiny!  "Is that one of the things?"
+So shiny!  "Is that one of the things?"
 
 "Ah, yes, the sword.  Perhaps, however, it would be better to --"
 
@@ -589,8 +591,8 @@ Sounds pretty fancy!  "And the sword?"
 
 "The sword is, ah, preternaturally sharp."
 
-Oh really.  "I, uh, got it."  Gosh.  Okay.  Well.  I could... ask
-more [[questions]], I could [[suggest]] something, I could... um....
+"I, uh, got it."  Gosh.  Okay.  Well.  I could... ask more
+[[questions]], I could [[suggest]] something, I could... um....
 
 # questions
 
@@ -600,6 +602,8 @@ more [[questions]], I could [[suggest]] something, I could... um....
 had envisioned when we brought you here!"
 
 "Liar!"
+
+Whoa, she really --
 
 "Ah, see how hopeless it would be to expect us to resolve this difficulty
 without your assistance!  Truly, you are our only hope!"
@@ -637,7 +641,7 @@ it have?"
 
 "It, uh... there's, like, an angel, and sometimes you can ask it a
 question... I mean it takes some practice, you can't just... I mean
-you can, you can try it, but... I just, I spent a lot of time tuning,
+you, you could try it, but... I just, I spent a lot of time tuning,
 so don't mess --"
 
 #{@pause 20}
@@ -653,8 +657,8 @@ The boots now?  Yes.  The boots.  She'll be back.
 
 "Don't!"
 
-"Quiet, you.  Just make a wish.  But don't forget to wish yourself
-back here!"
+Oh, how I long to -- "Quiet, you.  Just make a wish.  But don't
+forget to wish yourself back here!"
 
 "I wish, uh... I wish I was home!"
 
@@ -664,9 +668,7 @@ Oh no.
 
 "Told you."
 
-Horrifying.
-
-Look away.  No, don't.
+Horrifying.  Look away.  No, I mustn't.
 
 [[Incredible]].
 
@@ -735,7 +737,7 @@ Too much, too much, too much, too much, [[too much]]
 
 "...inscription?"
 
-Don't want it!  No, no, no, no, no, "no, [[no->nono]]"
+Don't want it!  No, no, no, no, no, no, "[[no->nono]]!"
 
 # nono
 
