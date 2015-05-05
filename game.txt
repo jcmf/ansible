@@ -231,7 +231,7 @@ Great, catch you later.  Oh my goodness.  They're, like, singing.
 
 #{@pause 724}
 
-Hey, you said to, uh, there's something coming --
+Hey, you said to, uh, there's something coming -- what the -- crap!
 
 #{@lose()}
 
@@ -389,7 +389,7 @@ Hold on, I want to see if I can hear if I take this off.
 
 "...not what we agreed."
 
-Okay, I
+Okay, I --
 
 "Listen!  Just listen!"
 
@@ -397,7 +397,7 @@ Okay, I
 
 "Listen!"
 
-Wow,
+Wow --
 
 "I need not and shall not!  It's mine!  It's mine by right!  His words --"
 
@@ -422,6 +422,8 @@ Lay low, lay low....
 
 # Good
 
+Whoops, sorry, didn't --
+
 "No!"
 
 "Uda, I shall no longer tolerate this insubordinate --"
@@ -434,7 +436,7 @@ Hrm?
 
 "Stop!"
 
-What is she --
+Maybe I should, uh --
 
 "...mine alone remain!"
 
@@ -456,19 +458,15 @@ Actually, that's not --
 
 # what
 
-Fuck!
-
-"Valeria.  I'm Valeria!  Pleased to meet you?"
-
-Hey, this could --
+Fuck!  Look, just -- "Valeria.  I'm Valeria!  Pleased to meet you?"
+Hey, yeah, this could --
 
 "Greetings, Valeria!  My name is Nara, and my sister's name is Uda.
 Please forgive our impoliteness; we can be very, ah, stupid, at
 times."
 
-"Oh!  Are you giants?"
-
-Ohmygod, did I just, oh my god, what the crap am I, they're gonna --
+Stupid?  "Oh!  Are you giants?"  Ohmygod, did I just, oh my god,
+what the crap am I, they're gonna --
 
 "How very perspicacious of you.  Truly -- ah, in fact, my sluggish giant
 brain is beginning to develop a thought."
@@ -514,14 +512,15 @@ Whoops!  Still getting the hang of this.
 
 That was exciting, right?  What the hell.  Right?
 
-Hold --
+Just give me a minute here....
 
 #{@lose()}
 
 # Do it?
 
-"Uhhhhhh... suuuuuure... just, uh, yeah, here we go, right, whoops,
-ha, okay, yes, okay, here we are, here we go."  Phew.
+"Uhhhhhh... suuuuuure...."  These shadows!  "Just, uh, yeah, here
+we go, right, whoops!"  Ow.  "Ha, okay, yes, okay," crap, "here we
+are, here we go."  Phew.
 
 "Please, make yourself comfortable!  There is no need to stand!  I
 can offer you this, ah, this fine flat rock!"
@@ -536,16 +535,16 @@ Uhhh.  "Oh!  I wouldn't want to, uh...."
 
 "You are undoubtedly eager for me to present my idea.  I shall now elucidate!"
 
-"Okay."
+Seriously?  "Okay."  Elucidate?
 
 "My sister and I are the recent recipients of an inheritance.  Being
 quite, ah, stupid, we are unable to divide it amicably."
 
-"And you want me to decide who gets what?"
+"And you want me to decide who gets what?"  Oooh, look at that thing.
 
 "That is correct.  Now, your first thought will be to --"
 
-Grm.  "Is that one of the things?"
+Shiny!  "Is that one of the things?"
 
 "Ah, yes, the sword.  Perhaps, however, it would be better to --"
 
@@ -590,8 +589,8 @@ Sounds pretty fancy!  "And the sword?"
 
 "The sword is, ah, preternaturally sharp."
 
-"I, uh, got it."  Gosh.  Okay.  Well.  I could... ask more
-[[questions]], I could [[suggest]] something, I could... um....
+Oh really.  "I, uh, got it."  Gosh.  Okay.  Well.  I could... ask
+more [[questions]], I could [[suggest]] something, I could... um....
 
 # questions
 
@@ -623,9 +622,7 @@ Gosh.  [[Boots->boots]], [[mantle]], or [[sword]]?
 In fact it might be best if you were to leave behind some sort of
 guarantee, some... do you have anything of value?"
 
-"Well... uh... I mean... I do have this ring...."
-
-Crap!  Maybe --
+"Well... uh... I mean... I do have this ring...."  Crap!  Maybe --
 
 "Ah!  May I examine it?"
 
