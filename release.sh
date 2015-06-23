@@ -12,6 +12,6 @@ cp index.html "old/ansible-$version.html"
 git add .
 git commit -m "$version"
 git tag -am "$version" "$version"
-# git push
+git push
 # npm publish
 ssh toastball.net 'cat > tmp && test -s tmp && mv tmp www/toastball.net/games/ansible/index.html' < index.html
